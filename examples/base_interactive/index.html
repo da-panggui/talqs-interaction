@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TalqsInteraction Base</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://localhost:9800/dist/talqsTemplate.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://hejinjun.github.io/talqs-template/dist/talqsTemplate.css">
+    <style>
+    .active {
+        background: #666!important;
+    }
+    
+    .row {
+        padding: 10px 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <p class="text-info">该 Demo 展示了使用 TalqsTemplate 渲染试题结构</p>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-primary" id="changeQS">下一题</button>
+            <button type="submit" class="btn btn-primary" id="getData">获取作答数据</button>
+        </div>
+        <div class="row bg-info" id="info"></div>
+        <div class="row bg-success" id="answer"></div>
+        <div id="app" class="row"></div>
+    </div>
+    <script src="../build/shared.js"></script>
+    <script src="../build/base_interactive.js"></script>
+</body>
+
+</html>

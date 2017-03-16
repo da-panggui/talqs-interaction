@@ -1,0 +1,21 @@
+{
+    "gitbook": "3.2.2",
+    "title": "TalqsInteraction",
+    "language": "zh-cn",
+    "plugins": ["edit-link", "prism", "theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git", "-fontsettings", "-highlight", "github"],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/hejinjun/talqs-interaction/tree/master/docs",
+            "label": "编辑此页面"
+        },
+        "github": {
+            "url": "https://github.com/hejinjun/talqs-interaction"
+        }
+    },
+    "links": {
+        "sharing": {
+            "facebook": false,
+            "twitter": false
+        }
+    }
+}
