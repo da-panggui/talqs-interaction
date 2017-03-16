@@ -25,14 +25,14 @@ import { UPDATE_TALQS_CACHE_EVENT } from './events/index';
 
 
 const TalqsInteraction = {
-  talqsStorageData,
-
-  setInitialData(data) {
-    talqsStorageData.cache = data;
-
-    const event = new Event(UPDATE_TALQS_CACHE_EVENT) 
-    document.dispatchEvent(event);
-    
+  setData(data) {
+    for (let key in data) {
+      talqsStorageData.set(key, data[key]);
+    }
+    document.dispatchEvent(new Event(UPDATE_TALQS_CACHE_EVENT) );
+  },
+  getData(id) {
+    return talqsStorageData.get(id);
   }
 }
 

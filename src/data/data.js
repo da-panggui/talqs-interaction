@@ -1,13 +1,10 @@
+/**
+ * 数据存储中心
+ */
 const talqsStorageData = (() => {
   class Data {
     constructor() {
       this._cache = {};
-    }
-
-    set cache(data) {
-      for (var key in data) {
-        this.set(key, data[key])
-      }
     }
 
     get cache() {
@@ -16,7 +13,6 @@ const talqsStorageData = (() => {
 
     set(key, data) {
       this._cache[key] = data;
-      console.log(JSON.stringify(this._cache));
     }
 
     get(key) {

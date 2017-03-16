@@ -21,9 +21,9 @@ var renderIndex = function() {
   var currentData = data[currentIndex];
   currentId = currentData.queId;
   app.innerHTML = TalqsTemplate.render(currentData, {queIndex: currentIndex + 1});
-  var jsonStr = TalqsInteraction.talqsStorageData.get(currentId);
+  var jsonStr = TalqsInteraction.getData(currentId);
   if (jsonStr) {
-    TalqsInteraction.setInitialData(JSON.parse(jsonStr))
+    TalqsInteraction.setData(JSON.parse(jsonStr))
   }
   info.innerHTML = `逻辑类型： ${currentData.logicQuesTypeName}，逻辑类型ID： ${currentData.logicQuesTypeId}`;
 };
@@ -36,7 +36,7 @@ changeQSBtn.addEventListener('click', function(){
 })
 
 var getInputData = function() {
-  var jsonStr = TalqsInteraction.talqsStorageData.get(currentId);
+  var jsonStr = TalqsInteraction.getData(currentId);
   answer.innerHTML = jsonStr ? jsonStr : '你还未作答此题'
 }
 
