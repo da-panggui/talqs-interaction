@@ -30,7 +30,10 @@ export default
 `
 {{ if data.answerOptionList && !data.isCloze}}
     {{if data.logicQuesTypeId == 1 || data.logicQuesTypeId == 2}}
-      <div class="${style.main}" data-talqs-type="choice" data-que-id="{{data.queId}}" data-logic-type="{{data.logicQuesTypeId}}">
+      <div  class="${style.main}"
+            data-talqs-type="choice"
+            data-que-id="{{data.queId}}"
+            data-logic-type="{{data.logicQuesTypeId}}">
           <ul class="${style.list}">
             {{each data.answerOptionList}}
               <li class="${style.rows}">

@@ -136,6 +136,7 @@ const ChoiceTypeQuestion = (($) => {
 
     // 点击选项事件监听
     static _dataApiClickHandler() {
+      debugger;
       // 获取选项列表容器
       const containerElement = $(this).closest(Selector.CHOICE_CONTAINER)[0];
       // 获取此选项对应试题的 ID

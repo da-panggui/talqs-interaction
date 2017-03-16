@@ -1,7 +1,7 @@
 import TalqsInteraction from 'talqsInteraction';
 
 var data = [];
-var currentIndex = 0;
+var currentIndex = 11;
 var currentId;
 
 // 试题请求完成
