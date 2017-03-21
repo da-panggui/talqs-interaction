@@ -105,6 +105,7 @@ const ChoiceTypeQuestion = (($) => {
       this._updateStyleState(index);
       // 更新缓存数据
       talqsStorageData.set(this._queId, this._selected);
+      this.dispatchEvent(new Event('CLICK_ITEM_TEST'));
     }
 
 
@@ -136,7 +137,6 @@ const ChoiceTypeQuestion = (($) => {
 
     // 点击选项事件监听
     static _dataApiClickHandler() {
-      debugger;
       // 获取选项列表容器
       const containerElement = $(this).closest(Selector.CHOICE_CONTAINER)[0];
       // 获取此选项对应试题的 ID

@@ -33,8 +33,9 @@ export default
       <div  class="${style.main}"
             data-talqs-type="choice"
             data-que-id="{{data.queId}}"
-            data-logic-type="{{data.logicQuesTypeId}}">
-          <ul class="${style.list}">
+            data-logic-type="{{data.logicQuesTypeId}}"
+            >
+          <ul class="${style.list}" data-auto-layout="{{data.answerOptionList[0].length}}">
             {{each data.answerOptionList}}
               <li class="${style.rows}">
                 <ul class="${style.columns}_{{$value.length}} ${style.clear}" data-option-group="{{$index}}">

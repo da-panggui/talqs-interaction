@@ -5,8 +5,10 @@ demo=$dist/demo/
 rm -rf $demo
 mkdir $demo
 
+lessc ./talqsInteraction.less $dist/talqsInteraction.css
+
 # 拷贝静态资源
-cp ./index.html ./data.json  $demo
+cp ./index.html ./data.json ./talqsInteraction.less  $demo
 
 # 拷贝 demo 静态文件
 for f in **/index.html; do

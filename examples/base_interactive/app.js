@@ -12,7 +12,6 @@ var loadComplete = function(result) {
 };
 
 var app = document.getElementById('app');
-var changeQSBtn =  document.getElementById('changeQS');
 var info = document.getElementById('info');
 var answer = document.getElementById('answer');
 
@@ -26,10 +25,11 @@ var renderIndex = function() {
     TalqsInteraction.setData(JSON.parse(jsonStr))
   }
   info.innerHTML = `逻辑类型： ${currentData.logicQuesTypeName}，逻辑类型ID： ${currentData.logicQuesTypeId}`;
+  TalqsTemplate.autoLayout();
 };
 
 // 切换下一道题
-changeQSBtn.addEventListener('click', function(){
+document.getElementById('changeQS').addEventListener('click', function(){
   currentIndex = currentIndex < data.length - 1 ? currentIndex + 1 : 0;
   renderIndex()
   getInputData();

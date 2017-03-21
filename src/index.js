@@ -16,7 +16,21 @@ import { UPDATE_TALQS_CACHE_EVENT } from './events/index';
 // 注册交互版本的组件和辅助函数
 (function registerInteractiveTemplate(TalqsTemplate){
   // 注册交互版组件
-  TalqsTemplate.registerComponent(templates);
+  let components = TalqsTemplate.components;
+  TalqsTemplate.updateTemplateList({
+    [components.StemsWrapper]: {
+      components: [
+        {
+          name: components.Content,
+          template: templates.questionContent
+        },
+        {
+          name: components.Options,
+          template: templates.questionOptions
+        }
+      ]
+    }
+  });
   // 注册 helper
   for (let key in helper) {
     TalqsTemplate.registerHelper(key, helper[key]);
@@ -29,7 +43,7 @@ const TalqsInteraction = {
     for (let key in data) {
       talqsStorageData.set(key, data[key]);
     }
-    document.dispatchEvent(new Event(UPDATE_TALQS_CACHE_EVENT) );
+    document.dispatchEvent(new Event(UPDATE_TALQS_CACHE_EVENT));
   },
   getData(id) {
     return talqsStorageData.get(id);
