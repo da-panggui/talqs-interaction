@@ -5,7 +5,8 @@
  * 2. 多选      data-type: '2'
  */
 import talqsStorageData from '../data/data';
-import { UPDATE_TALQS_CACHE_EVENT } from '../events/index';
+import { UPDATE_TALQS_CACHE_EVENT, dispatchUpdateEvent } from '../events/index';
+import attr from '../template/attr';
 
 const ChoiceTypeQuestion = (($) => {
 
@@ -15,22 +16,22 @@ const ChoiceTypeQuestion = (($) => {
   const EVENT_KEY = `.${DATA_KEY}`
   const DATA_API_KEY = '.data-api'
 
-  const Event = {
+  const Events = {
     CLICK_DATA_API: `click${EVENT_KEY}${DATA_API_KEY}`,
     UPDATE_CACHE_DATA_API: UPDATE_TALQS_CACHE_EVENT
   }
 
   const Selector = {
-    CHOICE_ITEM: '[data-option-item]',
-    CHOICE_GROUP: '[data-option-group]',
-    CHOICE_CONTAINER: '[data-talqs-type="choice"]'
+    CHOICE_ITEM: `[${attr.optionItem}]`,
+    CHOICE_GROUP: `[${attr.optionGroup}]`,
+    CHOICE_CONTAINER: `[${attr.type}="choice"]`
   }
 
   const ATTR = {
-    QUE_ID: 'data-que-id',
-    LOGIC_TYPE: 'data-logic-type',
-    CHOICE_ITEM: 'data-option-item',
-    CHOICE_GROUP: 'data-option-group',
+    QUE_ID: attr.queId,
+    LOGIC_TYPE: attr.logicType,
+    CHOICE_ITEM: attr.optionItem,
+    CHOICE_GROUP: attr.optionGroup,
   }
 
   const ClassName = {
@@ -105,7 +106,12 @@ const ChoiceTypeQuestion = (($) => {
       this._updateStyleState(index);
       // 更新缓存数据
       talqsStorageData.set(this._queId, this._selected);
-      this.dispatchEvent(new Event('CLICK_ITEM_TEST'));
+      dispatchUpdateEvent({
+        queId: this._queId,
+        data: this._selected,
+        multiple: this._config.multipleChoice,
+        type: NAME
+      })
     }
 
 
@@ -190,8 +196,8 @@ const ChoiceTypeQuestion = (($) => {
     }
   }
 
-  $(document).on(Event.CLICK_DATA_API, Selector.CHOICE_ITEM, ChoiceType._dataApiClickHandler);
-  $(document).on(Event.UPDATE_CACHE_DATA_API, ChoiceType._dataInitialHandler);
+  $(document).on(Events.CLICK_DATA_API, Selector.CHOICE_ITEM, ChoiceType._dataApiClickHandler);
+  $(document).on(Events.UPDATE_CACHE_DATA_API, ChoiceType._dataInitialHandler);
 })(jQuery)
 
 export default ChoiceTypeQuestion

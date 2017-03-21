@@ -6,6 +6,7 @@
  */
 import talqsStorageData from '../data/data';
 import { UPDATE_TALQS_CACHE_EVENT } from '../events/index';
+import attr from '../template/attr';
 
 const DropdownTypeQuestion = (($) => {
   const NAME = 'dropdown'
@@ -20,13 +21,13 @@ const DropdownTypeQuestion = (($) => {
   }
 
   const Selector = {
-    DROPDOWN_ITEM: '[data-inputid]',
-    DROPDOWN_CONTAINER: '[data-talqs-type="dropdown"]'
+    DROPDOWN_ITEM: `[${attr.inputid}]`,
+    DROPDOWN_CONTAINER: `[${attr.type}="dropdown"]`
   }
 
   const ATTR = {
-    QUE_ID: 'data-que-id',
-    INPUTID: 'data-inputid',
+    QUE_ID: attr.queId,
+    INPUTID: attr.inputid,
   }
 
   class DropdownType {

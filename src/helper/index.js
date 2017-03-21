@@ -2,7 +2,11 @@
  * [transfromBlankContent description]
  * @return {[type]} [description]
  */
-import { BLANK_REGEX } from '../regex/index'
+import { BLANK_REGEX } from '../regex/index';
+
+import attr from '../template/attr';
+
+import style from '../template/style';
 
 const blankType = [3, 4, 10];
 
@@ -23,13 +27,13 @@ helper.transfromBlankContent = function(content, data) {
     content = content.replace(BLANK_REGEX, function(match) {
         index++;
         if (type === 4) { // 填空题
-         output = `<input type="text" data-blank-item="${index}">`
+         output = `<input type="text" ${attr.blankItem}="${index}" class="${style.input}">`
         } else {
           list = type === 3 ? list : data.answerOptionList[index];
           const options = list.map((item) => `<option value="${item.aoVal}">${item.content}</option>`);
           output =  `
               <span>
-                <select data-inputid="${index}">
+                <select ${attr.inputid}="${index}">
                   <option value></option>
                   ${options.join('')}
                 </select>

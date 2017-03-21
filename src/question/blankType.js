@@ -8,7 +8,8 @@
  * 1. 判断是否可以机器判卷
  */
 import talqsStorageData from '../data/data'
-import { UPDATE_TALQS_CACHE_EVENT } from '../events/index';
+import { UPDATE_TALQS_CACHE_EVENT, dispatchUpdateEvent } from '../events/index';
+import attr from '../template/attr';
 
 const BlankTypeQuestion = (($) => {
 
@@ -24,13 +25,13 @@ const BlankTypeQuestion = (($) => {
   }
 
   const ATTR = {
-    QUE_ID: 'data-que-id',
-    BLANK_ITEM: 'data-blank-item'
+    QUE_ID: attr.queId,
+    BLANK_ITEM: attr.blankItem
   }
 
   const Selector = {
-    BLANK_ITEM: '[data-blank-item]',
-    BLANK_CONTAINER: '[data-talqs-type="blank"]'
+    BLANK_ITEM: `[${attr.blankItem}]`,
+    BLANK_CONTAINER: '[${attr.type}="blank"]'
   }
 
   class BlankType {
@@ -67,6 +68,12 @@ const BlankTypeQuestion = (($) => {
         this._blankData[index] = value;
         // 更新缓存中的数据
         talqsStorageData.set(this._queId, this._blankData);
+        // 派发事件
+        dispatchUpdateEvent({
+          queId: this._queId,
+          data: this._blankData,
+          type: NAME
+        })
       }
     }
 
