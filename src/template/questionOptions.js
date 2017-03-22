@@ -11,44 +11,27 @@
  * data-option-item="{{$value.aoVal}}"
  */
 
-const main = `talqs_options`
-
-const style = {
-  main,
-  list: `${main}_list`,
-  rows: `${main}_rows`,
-  columns: `${main}_columns`,
-  item: `${main}_columns_item`,
-  index: `${main}_index`,
-  label: `${main}_label`,
-  content: `${main}_content`,
-  clear: 'clearfix'
-}
-
+import style from './style';
+import attr from './attr';
+import { isChoice, logicType } from './validate'
 
 export default
 `
-{{ if data.answerOptionList && !data.isCloze}}
-    {{if data.logicQuesTypeId == 1 || data.logicQuesTypeId == 2}}
-      <div  class="${style.main}"
-            data-talqs-type="choice"
-            data-que-id="{{data.queId}}"
-            data-logic-type="{{data.logicQuesTypeId}}"
-            >
-          <ul class="${style.list}" data-auto-layout="{{data.answerOptionList[0].length}}">
-            {{each data.answerOptionList}}
-              <li class="${style.rows}">
-                <ul class="${style.columns}_{{$value.length}} ${style.clear}" data-option-group="{{$index}}">
-                  {{each $value}}
-                    <li class="${style.item} ${style.clear}" data-option-item="{{$value.aoVal}}">
-                      <span class="${style.label}">{{$value.aoVal}}. </span>
-                      <div class="${style.content}">{{#$value.content}}</div>
-                    </li>
-                  {{/each}}
-                </ul>
-              </li>
-            {{/each}}
-          </ul>
-      </div>
-    {{/if}}
+{{ if data.answerOptionList && !data.isCloze && ${isChoice} }}
+    <div class="${style.options}" ${attr.type}="choice" ${attr.queId}="{{data.queId}}" ${attr.logicType}="{{${logicType}}}">
+        <ul class="${style.optionsList}" ${attr.autoLayout}="{{data.answerOptionList[0].length}}">
+          {{each data.answerOptionList}}
+            <li class="${style.optionsRows}">
+              <ul class="${style.optionsColumns}_{{$value.length}} ${style.clear}" ${attr.optionGroup}="{{$index}}">
+                {{each $value}}
+                  <li class="${style.optionsItem} ${style.clear}" ${attr.optionItem}="{{$value.aoVal}}">
+                    <span class="${style.optionsLabel}">{{$value.aoVal}}. </span>
+                    <div class="${style.optionsContent}">{{#$value.content}}</div>
+                  </li>
+                {{/each}}
+              </ul>
+            </li>
+          {{/each}}
+        </ul>
+    </div>
 {{/if}}`
