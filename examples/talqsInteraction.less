@@ -14,31 +14,30 @@
   margin-bottom: 15px;
   padding: 5px 0 5px 10px;
   cursor: pointer;
+  //激活
+  &.active {
+    .status(@active);
+  }
+  //正确
+  &.correct {
+    .status(@correct);
+  }
+  //错误
+  &.wrong {
+    .status(@wrong);
+  }
 }
-//选项横向排列
-.talqs_options_list_2 .talqs_options_rows:nth-child(2n+1),
-.talqs_options_list_4 .talqs_options_rows:not(:last-child) {
-  padding-right: 20px !important;
-}
-//选中选项
-.active {
-  .status(@active);
-}
-//正确选项
-.options_correct {
-  .status(@correct);
-}
-//错误选项
-.options_wrong {
-  .status(@wrong);
-}
-
-//完型填空
+//填空
 .talqs_blank_input {
   margin: 0 10px;
   &:focus{
     outline: none;
   }
+}
+//选项横向排列
+.talqs_options_list_2 .talqs_options_rows:nth-child(2n+1),
+.talqs_options_list_4 .talqs_options_rows:not(:last-child) {
+  padding-right: 20px !important;
 }
 //模拟课堂端界面尺寸
 .talqs {
