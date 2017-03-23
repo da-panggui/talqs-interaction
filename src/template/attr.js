@@ -9,5 +9,6 @@ export default {
   optionGroup: 'data-option-group',
   optionItem: 'data-option-item',
   blankItem: 'data-blank-item',
-  inputid: 'data-inputid'
+  inputid: 'data-inputid',
+  rootId: 'data-talqs-root'
 }

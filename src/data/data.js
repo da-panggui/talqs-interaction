@@ -15,24 +15,25 @@ const talqsStorageData = (() => {
       this._cache[key] = data;
     }
 
-    replacer(key, value) {
-      if (typeof value === 'undefined' || value === null) {
-        return "";
-      }
-      return value;
-    }
-
-    get(key) {
-      let item;
-      if (key) {
-        item = this._cache[key];
+    get(id) {
+      let result;
+      if (id) { // 遍历查找
+        for (let key in this._cache) {
+          const item = this._cache[key];
+          if (key === id) { // 直接命中
+            result = item;
+            break;
+          } else if(item.rootId === id) { // 获取 rootId 集合
+            if (!result) {
+              result = {};
+            }
+            result[key] = item;
+          }
+        }
       } else {
-        item = this._cache;
+        result = this._cache;
       }
-      if (item) {
-        return JSON.stringify(item, this.replacer);
-      }
-      return item;
+      return JSON.stringify(result);
     }
 
     remove(key) {

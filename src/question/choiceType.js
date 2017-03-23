@@ -5,7 +5,7 @@
  * 2. 多选      data-type: '2'
  */
 import talqsStorageData from '../data/data';
-import { UPDATE_TALQS_CACHE_EVENT, dispatchUpdateEvent } from '../events/index';
+import { TALQS_EVENT, dispatchUpdateEvent } from '../events/index';
 import attr from '../template/attr';
 
 const ChoiceTypeQuestion = (($) => {
@@ -18,13 +18,14 @@ const ChoiceTypeQuestion = (($) => {
 
   const Events = {
     CLICK_DATA_API: `click${EVENT_KEY}${DATA_API_KEY}`,
-    UPDATE_CACHE_DATA_API: UPDATE_TALQS_CACHE_EVENT
   }
 
   const Selector = {
     CHOICE_ITEM: `[${attr.optionItem}]`,
     CHOICE_GROUP: `[${attr.optionGroup}]`,
-    CHOICE_CONTAINER: `[${attr.type}="choice"]`
+    CHOICE_CONTAINER: `[${attr.type}="choice"]`,
+    ROOT_CONTAINER: `[${attr.rootId}]`,
+    CHILD_ITEM: `[${attr.type}]`,
   }
 
   const ATTR = {
@@ -32,6 +33,7 @@ const ChoiceTypeQuestion = (($) => {
     LOGIC_TYPE: attr.logicType,
     CHOICE_ITEM: attr.optionItem,
     CHOICE_GROUP: attr.optionGroup,
+    ROOT_ID: attr.rootId,
   }
 
   const ClassName = {
@@ -40,11 +42,12 @@ const ChoiceTypeQuestion = (($) => {
 
   class ChoiceType {
 
-    constructor(queId, element, data, config) {
+    constructor(queId, rootId, element, data, config) {
       this._element = element;
       this._selected = data || [];
       this._config = config;
       this._queId = queId;
+      this._rootId = rootId;
     }
 
     // getters
@@ -104,14 +107,23 @@ const ChoiceTypeQuestion = (($) => {
       }
       // 更新选中样式
       this._updateStyleState(index);
-      // 更新缓存数据
-      talqsStorageData.set(this._queId, this._selected);
-      dispatchUpdateEvent({
+
+      // 作答数据
+      const inputData = {
+        rootId: this._rootId,
         queId: this._queId,
-        data: this._selected,
+        data: this._selected.length ? this._selected : null,
         multiple: this._config.multipleChoice,
         type: NAME
-      })
+      }
+      if (inputData.data) {
+        talqsStorageData.set(this._queId, inputData);
+      } else {
+        talqsStorageData.remove(this._queId)
+      }
+      
+      // 派发数据改变事件
+      dispatchUpdateEvent(inputData)
     }
 
 
@@ -123,7 +135,7 @@ const ChoiceTypeQuestion = (($) => {
      */
     fillDataIntoComponent(data) {
       // 作答数据赋值
-      this._selected = data;
+      this._selected = data || [];
       this._updateStyleState();
     }
 
@@ -147,14 +159,16 @@ const ChoiceTypeQuestion = (($) => {
       const containerElement = $(this).closest(Selector.CHOICE_CONTAINER)[0];
       // 获取此选项对应试题的 ID
       const queId = containerElement && containerElement.getAttribute(ATTR.QUE_ID);
-      if (queId) {
+      // 获取最外层 ID
+      const rootId = ChoiceType._getRootId(this);
+      if (queId && rootId) {
         // 获取点选选项的数据
         const option = this.getAttribute(ATTR.CHOICE_ITEM);
         // 获取索引值
         const parent = this.parentElement;
         const index = parent && parent.getAttribute(ATTR.CHOICE_GROUP);
         // 更新选项数据
-        ChoiceType._getInstance(queId, containerElement).updateSelectedState(option, index);
+        ChoiceType._getInstance(queId, rootId, containerElement).updateSelectedState(option, index);
       }
     }
 
@@ -164,19 +178,34 @@ const ChoiceTypeQuestion = (($) => {
      * @param  {[type]}       element  [挂载元素]
      * @return {[ChoiceType]}          [组件实例]
      */
-    static _getInstance(queId, element) {
+    static _getInstance(queId, rootId, element) {
       // 获取组件缓存
       let instance = $(element).data(DATA_KEY);
       if (!instance) {
         const type = element.getAttribute(ATTR.LOGIC_TYPE);
         const config = ChoiceType.getConfig(type);
         // 初始化组件并写入缓存
-        instance = new ChoiceType(queId, element, [], config);
+        instance = new ChoiceType(queId, rootId, element, [], config);
         $(element).data(DATA_KEY, instance)
       }
       return instance;
     }
 
+    /**
+     * [_getRootId description]
+     * @param  {[type]} element [description]
+     * @return {[type]}         [description]
+     */
+    static _getRootId(element) {
+      // 获取最外层容器
+      const rootContainer = $(element).closest(Selector.ROOT_CONTAINER)[0];
+      // 获取最外层 ID
+      const rootId =  rootContainer && rootContainer.getAttribute(ATTR.ROOT_ID);
+
+      // const childLen = rootContainer && $(rootContainer).find(Selector.CHILD_ITEM).toArray().length;
+
+      return rootId;
+    }
 
     // 带初始化数据的初始化组件
     static _dataInitialHandler() {
@@ -187,17 +216,18 @@ const ChoiceTypeQuestion = (($) => {
         const item = choiceTypeArray[i];
         const queId = item.getAttribute(ATTR.QUE_ID);
         // 缓存中对应该试题的数据
-        const initialData = talqsStorageData.cache[queId];
-        if (initialData) { 
+        const initialData = queId && talqsStorageData.cache[queId];
+        const rootId = ChoiceType._getRootId(item) ;
+        if (rootId && initialData && initialData.data) { 
           // 查看是否有初始化标记
-          ChoiceType._getInstance(queId, item).fillDataIntoComponent(initialData);
+          ChoiceType._getInstance(queId, rootId, item).fillDataIntoComponent(initialData.data);
         }
       }
     }
   }
 
   $(document).on(Events.CLICK_DATA_API, Selector.CHOICE_ITEM, ChoiceType._dataApiClickHandler);
-  $(document).on(Events.UPDATE_CACHE_DATA_API, ChoiceType._dataInitialHandler);
+  $(document).on(TALQS_EVENT.CHANGE, ChoiceType._dataInitialHandler);
 })(jQuery)
 
 export default ChoiceTypeQuestion

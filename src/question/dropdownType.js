@@ -5,7 +5,7 @@
  * 2. 完形填空
  */
 import talqsStorageData from '../data/data';
-import { UPDATE_TALQS_CACHE_EVENT } from '../events/index';
+import { TALQS_EVENT, dispatchUpdateEvent } from '../events/index';
 import attr from '../template/attr';
 
 const DropdownTypeQuestion = (($) => {
@@ -17,17 +17,18 @@ const DropdownTypeQuestion = (($) => {
 
   const Event = {
     CHANGE: `change${EVENT_KEY}${DATA_API_KEY}`,
-    UPDATE_CACHE_DATA_API: UPDATE_TALQS_CACHE_EVENT
   }
 
   const Selector = {
     DROPDOWN_ITEM: `[${attr.inputid}]`,
-    DROPDOWN_CONTAINER: `[${attr.type}="dropdown"]`
+    DROPDOWN_CONTAINER: `[${attr.type}="dropdown"]`,
+    ROOT_CONTAINER: `[${attr.rootId}]`,
   }
 
   const ATTR = {
     QUE_ID: attr.queId,
     INPUTID: attr.inputid,
+    ROOT_ID: attr.rootId,
   }
 
   class DropdownType {
@@ -38,10 +39,12 @@ const DropdownTypeQuestion = (($) => {
      * @param  {[Array]}      data      [填空数据]
      * @return {[BlankType]}            [BlankType 实例]
      */
-    constructor(queId, element, data) {
+    constructor(queId,rootId, element, data) {
       this._queId = queId;
       this._element = element;
       this._selectData = data || [];
+      this._rootId = rootId;
+      this._blankNum = 0;
     }
 
     // getters
@@ -62,8 +65,37 @@ const DropdownTypeQuestion = (($) => {
       if (!isNaN(index)) {
         // 更新对应空号的数据
         this._selectData[index] = value;
-        // 更新缓存中的数据
-        talqsStorageData.set(this._queId, this._selectData);
+        // 获取填空数量
+        if (!this._blankNum) {
+          const selectArray = $(this._element).find(Selector.DROPDOWN_ITEM).toArray();
+          this._blankNum = selectArray && selectArray.length;
+        }
+        
+        // 检测是否有有效数据
+        const validate = this._selectData.some((item) => item);
+
+        const tempList = [];
+        for (let i = 0; i < this._selectData.length; i++) {
+          tempList.push(this._selectData[i] || '')
+        }
+
+        // 用户输入数据封装
+        const inputData = {
+          rootId: this._rootId,
+          queId: this._queId,
+          data: validate ? tempList : null,
+          type: NAME,
+          blankNum: this._blankNum
+        }
+
+        // 用户输入有效的数据，则更新缓存中的数据
+        if (validate) {
+          talqsStorageData.set(this._queId, inputData);
+        } else { // 输入无效的数据，移除内存中的数据
+          talqsStorageData.remove(this._queId);
+        }
+        // 派发事件
+        dispatchUpdateEvent(inputData)
       }
     }
 
@@ -96,15 +128,16 @@ const DropdownTypeQuestion = (($) => {
     static _dataApiSelectHandler(evt) {
       // 获取挂载元素
       const containerElement = $(this).closest(Selector.DROPDOWN_CONTAINER)[0];
-      // // 获取对应试题的 ID
+      // 获取对应试题的 ID
       const queId = containerElement && containerElement.getAttribute(ATTR.QUE_ID);
-      if (queId) {
-        // 获取input输入值
-        // 注意：输入的数据只处理首尾空格
+      // 获取最外层 ID
+      const rootId = DropdownType._getRootId(this)
+      if (queId && rootId) {
+        // 获取 select 输入值
         let value = evt.target.value;
         // 获取空号
         const index = this.getAttribute(ATTR.INPUTID);
-        DropdownType._getInstance(queId, containerElement).updateBlankValueByIndex(index, value);
+        DropdownType._getInstance(queId, rootId, containerElement).updateBlankValueByIndex(index, value);
       }
     }
 
@@ -114,16 +147,31 @@ const DropdownTypeQuestion = (($) => {
      * @param  {[type]}       element [挂载元素]
      * @return {[BlankType]}          [组件实例]
      */
-    static _getInstance(queId, element) {
+    static _getInstance(queId, rootId, element) {
       // 获取组件缓存
       let instance = $(element).data(DATA_KEY);
       if (!instance) {
         // 初始化组件并写入缓存
-        instance = new DropdownType(queId, element, []);
+        instance = new DropdownType(queId, rootId, element, []);
         $(element).data(DATA_KEY, instance)
       }
       return instance;
     }
+
+    /**
+     * [_getRootId description]
+     * @param  {[type]} element [description]
+     * @return {[type]}         [description]
+     */
+    static _getRootId(element) {
+      // 获取最外层容器
+      const rootContainer = $(element).closest(Selector.ROOT_CONTAINER)[0];
+      // 获取最外层 ID
+      const rootId =  rootContainer && rootContainer.getAttribute(ATTR.ROOT_ID);
+
+      return rootId;
+    }
+
 
     /**
      * [_dataInitialHandler 从外部更新缓存数据监听处理]
@@ -136,17 +184,18 @@ const DropdownTypeQuestion = (($) => {
       for (let i = 0; i < len; i++) {
         const item = dropdownTypeArray[i];
         const queId = item.getAttribute(ATTR.QUE_ID);
+        const rootId = DropdownType._getRootId(item);
         // 缓存中对应该试题的作答数据
-        const initialData = talqsStorageData.cache[queId];
-        if (initialData) {
-          DropdownType._getInstance(queId, item).fillDataIntoComponent(initialData);
+        const initialData = queId && talqsStorageData.cache[queId];
+        if (rootId && initialData && initialData.data) {
+          DropdownType._getInstance(queId, rootId, item).fillDataIntoComponent(initialData.data);
         }
       }
     }
   }
 
   $(document).on(Event.CHANGE, Selector.DROPDOWN_ITEM, DropdownType._dataApiSelectHandler);
-  $(document).on(Event.UPDATE_CACHE_DATA_API, DropdownType._dataInitialHandler);
+  $(document).on(TALQS_EVENT.CHANGE, DropdownType._dataInitialHandler);
 })(jQuery)
 
 export default DropdownTypeQuestion;

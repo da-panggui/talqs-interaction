@@ -11,7 +11,7 @@ import templates from './template/index';
 // 模板辅助函数
 import helper from './helper/index';
 
-import { UPDATE_TALQS_CACHE_EVENT } from './events/index';
+import { TALQS_EVENT }  from './events/index';
 
 // 注册交互版本的组件和辅助函数
 (function registerInteractiveTemplate(TalqsTemplate){
@@ -47,7 +47,7 @@ const TalqsInteraction = {
     for (let key in data) {
       talqsStorageData.set(key, data[key]);
     }
-    document.dispatchEvent(new Event(UPDATE_TALQS_CACHE_EVENT));
+    document.dispatchEvent(new Event(TALQS_EVENT.CHANGE));
   },
   /**
    * [getData description]
@@ -57,12 +57,16 @@ const TalqsInteraction = {
   getData(id) {
     return talqsStorageData.get(id);
   },
-  _events: [],
 
-  on(event, fn) {
-    (this._events[event] || (this._events[event] = [])).push(fn);
-  }
+  onChange: null,
 }
+
+// 监听输入事件
+document.addEventListener(TALQS_EVENT.INPUT, function(evt){
+  if (TalqsInteraction.onChange) {
+    TalqsInteraction.onChange(evt)
+  }
+})
 
 export default TalqsInteraction;
 

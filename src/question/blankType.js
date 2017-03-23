@@ -8,7 +8,7 @@
  * 1. 判断是否可以机器判卷
  */
 import talqsStorageData from '../data/data'
-import { UPDATE_TALQS_CACHE_EVENT, dispatchUpdateEvent } from '../events/index';
+import { TALQS_EVENT, dispatchUpdateEvent } from '../events/index';
 import attr from '../template/attr';
 
 const BlankTypeQuestion = (($) => {
@@ -21,17 +21,18 @@ const BlankTypeQuestion = (($) => {
 
   const Event = {
     KEYUP_DATA_API: `keyup${EVENT_KEY}${DATA_API_KEY}`,
-    UPDATE_CACHE_DATA_API: UPDATE_TALQS_CACHE_EVENT
   }
 
   const ATTR = {
     QUE_ID: attr.queId,
-    BLANK_ITEM: attr.blankItem
+    BLANK_ITEM: attr.blankItem,
+    ROOT_ID: attr.rootId,
   }
 
   const Selector = {
     BLANK_ITEM: `[${attr.blankItem}]`,
-    BLANK_CONTAINER: '[${attr.type}="blank"]'
+    BLANK_CONTAINER: `[${attr.type}="blank"]`,
+    ROOT_CONTAINER: `[${attr.rootId}]`,
   }
 
   class BlankType {
@@ -42,10 +43,12 @@ const BlankTypeQuestion = (($) => {
      * @param  {[Array]}      data      [填空数据]
      * @return {[BlankType]}            [BlankType 实例]
      */
-    constructor(queId, element, data) {
+    constructor(queId, rootId, element, data) {
       this._queId = queId;
+      this._rootId = rootId;
       this._element = element;
       this._blankData = data || [];
+      this._num = 0;
     }
 
     // getters
@@ -64,16 +67,40 @@ const BlankTypeQuestion = (($) => {
     updateBlankValueByIndex(index, value) {
       index = parseInt(index, 10);
       if (!isNaN(index)) {
-        // 更新对应空号的数据
-        this._blankData[index] = value;
-        // 更新缓存中的数据
-        talqsStorageData.set(this._queId, this._blankData);
-        // 派发事件
-        dispatchUpdateEvent({
-          queId: this._queId,
-          data: this._blankData,
-          type: NAME
-        })
+        // 与当前值比对，看是否有更新
+        const currentValue = this._blankData[index];
+        if (currentValue !== value) {
+          // 更新对应空号的数据
+          this._blankData[index] = value;
+
+          // 获取填空数量
+          if (!this._num) {
+            const blankArray = $(this._element).find(Selector.BLANK_ITEM).toArray();
+            this._num = blankArray && blankArray.length;
+          }
+        
+          // 检测是否有有效数据
+          const validate = this._blankData.some((item) => item);
+
+          // 用户输入数据封装
+          const inputData = {
+            queId: this._queId,
+            rootId: this._rootId,
+            data: validate ? this._blankData : null,
+            type: NAME,
+            blankNum: this._num
+          }
+
+          // 用户输入有效的数据，则更新缓存中的数据
+          if (validate) {
+            talqsStorageData.set(this._queId, inputData);
+          } else { // 输入无效的数据，移除内存中的数据
+            talqsStorageData.remove(this._queId);
+          }
+
+          // 派发事件
+          dispatchUpdateEvent(inputData)
+        }
       }
     }
 
@@ -108,15 +135,15 @@ const BlankTypeQuestion = (($) => {
       const containerElement = $(this).closest(Selector.BLANK_CONTAINER)[0];
       // 获取对应试题的 ID
       const queId = containerElement && containerElement.getAttribute(ATTR.QUE_ID);
-      if (queId) {
+      const rootId = BlankType._getRootId(this);
+      if (queId && rootId) {
         // 获取input输入值
         // 注意：输入的数据只处理首尾空格
-        let value = evt.target.value;
-        value = value.trim();
+        const value = evt.target.value.trim();
         evt.target.value = value;
         // 获取空号
         const index = this.getAttribute(ATTR.BLANK_ITEM);
-        BlankType._getInstance(queId, containerElement).updateBlankValueByIndex(index, value);
+        BlankType._getInstance(queId, rootId, containerElement).updateBlankValueByIndex(index, value);
       }
     }
 
@@ -126,16 +153,31 @@ const BlankTypeQuestion = (($) => {
      * @param  {[type]}       element [挂载元素]
      * @return {[BlankType]}          [组件实例]
      */
-    static _getInstance(queId, element) {
+    static _getInstance(queId, rootId, element) {
       // 获取组件缓存
       let instance = $(element).data(DATA_KEY);
       if (!instance) {
         // 初始化组件并写入缓存
-        instance = new BlankType(queId, element, []);
+        instance = new BlankType(queId, rootId, element, []);
         $(element).data(DATA_KEY, instance)
       }
       return instance;
     }
+
+    /**
+     * [_getRootId description]
+     * @param  {[type]} element [description]
+     * @return {[type]}         [description]
+     */
+    static _getRootId(element) {
+      // 获取最外层容器
+      const rootContainer = $(element).closest(Selector.ROOT_CONTAINER)[0];
+      // 获取最外层 ID
+      const rootId =  rootContainer && rootContainer.getAttribute(ATTR.ROOT_ID);
+
+      return rootId;
+    }
+
 
     /**
      * [_dataInitialHandler 从外部更新缓存数据监听处理]
@@ -148,17 +190,18 @@ const BlankTypeQuestion = (($) => {
       for (let i = 0; i < len; i++) {
         const item = blankTypeArray[i];
         const queId = item.getAttribute(ATTR.QUE_ID);
+        const rootId = BlankType._getRootId(item);
         // 缓存中对应该试题的作答数据
-        const initialData = talqsStorageData.cache[queId];
-        if (initialData) {
-          BlankType._getInstance(queId, item).fillDataIntoComponent(initialData);
+        const initialData = queId && talqsStorageData.cache[queId];
+        if (rootId && initialData && initialData.data) {
+          BlankType._getInstance(queId, rootId, item).fillDataIntoComponent(initialData.data);
         }
       }
     }
   }
 
   $(document).on(Event.KEYUP_DATA_API, Selector.BLANK_ITEM, BlankType._dataApiInputHandler);
-  $(document).on(Event.UPDATE_CACHE_DATA_API, BlankType._dataInitialHandler);
+  $(document).on(TALQS_EVENT.CHANGE, BlankType._dataInitialHandler);
 })(jQuery)
 
 export default BlankTypeQuestion;

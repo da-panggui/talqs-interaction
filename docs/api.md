@@ -14,18 +14,15 @@
 
   ```js
   { 
-    id1: ['A'], // 单选题
-    id2: ['A', 'D'], // 多选题
-    id3: ['A', 'D', 'C', 'E', '', ], // 多选多
-    id4: ['这是一道填空题'], // 填空题
-    id5: ['A', 'A', '', '' ], // 完型填空
+    id: { 
+      data: ["A", "B", ...]
+    }
   }
 
-  '' 表示未答题
+  data 数组中 '' 表示未答题
 
   ```
     
-
 - **`getData(id)`**
 
   从 TalqsInteraction 获取作答数据
@@ -33,10 +30,35 @@
   `id`    试题ID
 
   试题 id 为空则返回所有作答数据
-
-
   
-### TalqsInteraction 属性
+  ```js
+  { 
+    id: { 
+      data: ["A", "B", ...],
+      rootId: '大题ID',
+      queId: '试题ID',
+      type: "choice/blank/dropdown", // 交互类型
+      blankNum: '作答空数量', // 完形填空 和 填空专用
+      multiple: true/false, //单选或者多选标示，选择类型特有
+    }
+  }
+
+  data 数组中 '' 表示未答题
+
+  ```
+
+### TalqsInteraction 事件
+
+- **`onChange`**
+
+  用户输入数据变化监听方法
+
+  ```js
+    TalqsInteraction.onChange = function(evt) { 
+      console.log(evt.data) // 单题最新用户作答数据
+    }
+  ```
+
 
 
 
