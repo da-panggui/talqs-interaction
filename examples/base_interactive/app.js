@@ -28,7 +28,7 @@ var readableJson = function(data) {
 }
 
 TalqsInteraction.onChange = function(evt) {
-    answer.innerHTML = `实时数据，用于实时提交，通过 <code>UPDATE_TALQS_DATA</code> 订阅: 
+    answer.innerHTML = `实时数据，用于实时提交，通过 <code>onChange</code> 订阅: 
                         <pre>${readableJson(evt.data)}</pre>`;
 }
 
