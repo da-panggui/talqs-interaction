@@ -1,3 +1,4 @@
+@default: #E6E6E6;
 @active:  #0187FF;
 @correct: #02AC4C;
 @wrong:   #E4563A;
@@ -6,40 +7,68 @@
   border-color: @color!important;
   color: @color!important;
 }
-//选择题、完型填空
+//选择题、填空
 .talqs_options_columns_item,
-.talqs_blank_input {
-  border: 1px solid #E6E6E6;
+.talqs_blank_input,
+.talqs_content select {
+  border: 1px solid @default;
   border-radius: 4px;
   margin-bottom: 15px;
   padding: 5px 0 5px 10px;
   cursor: pointer;
+  //激活
+  &.active {
+    .status(@active);
+  }
+  //正确
+  &.correct {
+    .status(@correct);
+  }
+  //错误
+  &.wrong {
+    .status(@wrong);
+  }
+}
+//填空
+.talqs_blank_input {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0 10px;
+  max-width: 90%;
+  &:focus{
+    outline: none;
+  }
 }
 //选项横向排列
 .talqs_options_list_2 .talqs_options_rows:nth-child(2n+1),
 .talqs_options_list_4 .talqs_options_rows:not(:last-child) {
   padding-right: 20px !important;
 }
-//选中选项
-.active {
-  .status(@active);
-}
-//正确选项
-.options_correct {
-  .status(@correct);
-}
-//错误选项
-.options_wrong {
-  .status(@wrong);
-}
-
 //完型填空
-.talqs_blank_input {
-  margin: 0 10px;
+.talqs_content select{
+  border-color: @default;
+  padding: 5px 20px 5px 5px;
+  margin-bottom: 0;
   &:focus{
     outline: none;
+    border-color: @active!important;
   }
+
 }
+/*select {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  background-image: 
+    linear-gradient(45deg, #fff 50%, transparent 0),
+    linear-gradient(-45deg, #fff 50%, transparent 0),
+    repeating-linear-gradient(transparent 50%, #bbb 0);
+  background-size: 15px 13px;
+  background-repeat: no-repeat;
+  background-position: right 3px top 13px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}*/
 //模拟课堂端界面尺寸
 .talqs {
   width: 992px;
