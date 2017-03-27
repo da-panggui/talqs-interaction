@@ -15,25 +15,27 @@ const talqsStorageData = (() => {
       this._cache[key] = data;
     }
 
+    /**
+     * 获取作答数据（可传试题 ID 获取对应试题的作答数据）
+     * @param  {[String]} id [试题 ID]
+     * @return {[Array]}     [作答数据]
+     */
     get(id) {
-      let result;
-      if (id) { // 遍历查找
-        for (let key in this._cache) {
-          const item = this._cache[key];
+      const result = [];
+      for (let key in this._cache) {
+        const item = this._cache[key];
+        if (id) {
           if (key === id) { // 直接命中
-            result = item;
+            result.push(item);
             break;
-          } else if(item.rootId === id) { // 获取 rootId 集合
-            if (!result) {
-              result = {};
-            }
-            result[key] = item;
+          } else if(item.rootId === id) {  // 获取 rootId 集合
+            result.push(item);
           }
+        } else {
+          result.push(item);
         }
-      } else {
-        result = this._cache;
       }
-      return JSON.stringify(result);
+      return result.length ? result : undefined;
     }
 
     remove(key) {

@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://hejinjun.github.io/talqs-template/dist/talqsTemplate.css">
     <link rel="stylesheet/less" type="text/css" href="../talqsInteraction.less" />
     <script src="https://cdn.bootcss.com/less.js/2.7.2/less.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () { MathJax.InputJax.TeX.prefilterHooks.Add(function (data) { if (!data.display) {data.math = "\\displaystyle{"+data.math+"}"} }); }); MathJax.Hub.Config({ jax: ["input/TeX", "output/SVG"], extensions: ["tex2jax.js"], TeX: { extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js", "noUndefined.js"] }, tex2jax: { ignoreClass: 'ignore_math', inlineMath: [ ["$", "$"], ["\\", "\\"] ]}, showMathMenu: false, displayAlign:"left", "SVG": { linebreaks: { automatic: true, width: "container" }, scale: 80, EqnChunk: 500 } });
+    </script>
+    <script src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js"></script>
 </head>
 
 <body>
@@ -42,24 +46,31 @@ var app = document.getElementById('app');
 var info = document.getElementById('info');
 
 // 设置默认数据 
-// 格式为
+// 格式为两者之一即可
 //  {
 //    试题ID: {
 //      data: [] // 作答数据
 //    }
 //  }
+//  或者
+//  [
+//    {
+//      queId: 试题ID,
+//      data: [] // 作答数据
+//    }
+//  ]
 var inputData = {
-    "507a636aaae2498098064ae91493c78a": {
+    "8aac49074ed448ae014ef9036d300196": {
         data: ["A"]
     },
-    "0ceb786a26cb40879825d3602d13747c": {
-        data: ["A", "C", "D"]
+    "2ef895a3fd0f46a0bb944f6b1983e90f": {
+        data: ["A"]
     },
-    "1edda836906b451086427667e0f83ada": {
-        data: ['abcd']
+    "2c17e91fb0bd43d78eb55c2f84faa963": {
+        data: ['2']
     },
-    "9f41eb9cd4b942eea86fde0747bd19ca": {
-        data: ['A', '', '', '', 'D']
+    "b6bda1c008e94d8681a6debdadb9027f": {
+        data: ['4']
     }
 }
 
@@ -76,12 +87,14 @@ var renderQS = function() {
     // 单题模式设置
     var cache = inputData[currentId];
     if (cache) { 
-        TalqsInteraction.setData({[currentId] : cache});
+        TalqsInteraction.setData({[currentId]: cache});
     }
     
     info.innerHTML = `逻辑类型： ${currentData.logicQuesTypeName}，逻辑类型ID： ${currentData.logicQuesTypeId}`;
-    // 自动布局
-    TalqsTemplate.autoLayout();
+    MathJax.Hub.Queue(['Typeset', MathJax.Hub], () => {
+        // 自动布局
+        TalqsTemplate.autoLayout();
+    });
 };
 
 // 切换下一道题

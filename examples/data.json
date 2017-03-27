@@ -1,2990 +1,491 @@
 {  
-   "data":[
-      {  
-         "queId":"360849fabe4a4c6f9e7d1fde6895cabb",
-         "subjectName":"英语",
-         "subjectId":"3",
-         "gradeGroupName":"高中",
-         "gradeGroupId":"3",
-         "logicQuesTypeName":"多选多",
-         "logicQuesTypeId":"3",
-         "writtenQuesTypeName":"信息匹配",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1043",
-         "difficulty":3,
-         "creater":"赵田园",
-         "createDate":"2016-01-27 14:24:35",
-         "modifier":"张双双",
-         "modifyDate":"2016-07-05 18:40:29",
-         "content":"<p style=\"text-align:justify; text-indent:2em\">Many facts suggest that children are overweight and the situation is getting worse, according to the doctors.&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;.</p>\n<p style=\"text-align:justify; text-indent:2em\">Some people blame(责备) the fact that we are surrounded(包围) by shops selling unhealthy, fatty foods, such as fried chicken and ice cream , at low prices.&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;, then probably children would buy less take-away food．</p>\n<p style=\"text-align:justify; text-indent:2em\">&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;. I agree with this, because good eating habits begin early in life, long before children start to visit fast food shops. If parents often give their children fried chicken and chocolate rather than healthy food, they will go for sweet and salty foods, and children will find it hard to get rid of the habit.</p>\n<p style=\"text-align:justify; text-indent:2em\">There is a third reason for this situation. Children these days take very little exercise. They do not walk to school. When they get home, they sit in front of the television or their computers and play computer games.&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;. What they need is to go outside and play active games or sports.</p>\n<p style=\"text-align:justify; text-indent:2em\">The above are the main reasons for this problem.&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;, as well as steering them away from fast food shops and bad eating habits.</p>",
-         "answer":[  
-            "F",
-            "C",
-            "A",
-            "E",
-            "D"
-         ],
-         "analysis":"<p>1.空格处前一句说事实表明青少年肥胖的情形越来越严重，下文中开始具体介绍导致青少年肥胖的原因。空格处的句子起到了承上启下的作用，F选项复合文意。</p>\n<p>2.本段主要介绍过多的垃圾食品商店可能导致孩子肥胖，根据前后文，此处指的是如果没有那么多销售垃圾食品的餐馆，也许孩子们就会少买一点外带食物。应选C项。</p>\n<p>3.根据文章结构，第二至第四段分别介绍一种导致儿童肥胖的原因，本段开始介绍另一种观点，应选A项引出观点。</p>\n<p>4.根据上下文，可以推知空格处具体介绍了沉迷于电子游戏对孩子们的不良影响，对于孩子来说是不健康的消遣。应选E项。</p>\n<p>5.文章最后一段对全文进行总结，提出建议，D选项符合。</p>",
-         "keyWord":"七选五",
-         "queSource":"2015~2016学年北京大兴区高一上学期期末第71~75题10分",
-         "answerOptionList":[  
-            [  
-               {  
-                  "id":"b99cb9d9ce174aa1b63b2d298c244376",
-                  "aoVal":"A",
-                  "sort":0,
-                  "serialNum":1,
-                  "content":"There is another argument that blames parents for allowing their children to become overweight"
-               }
+   "data":
+      [
+    {
+        "queId": "8aac49074ed448ae014ef9036d300196",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "单选",
+        "logicQuesTypeId": "1",
+        "writtenQuesTypeName": "选择",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1001",
+        "difficulty": 2,
+        "creater": "蔡海",
+        "createDate": "2015-08-04 22:00:28",
+        "modifier": "赵建明",
+        "modifyDate": "2017-03-06 14:33:45",
+        "content": "<p>已知$\\alpha \\in \\left( \\frac{\\pi }{2},\\pi \\right)$，$\\sin \\alpha =\\frac{3}{5}$，则$\\tan \\left( \\alpha +\\frac{\\pi }{4} \\right)$的值等于（&nbsp; ）．</p> ",
+        "answer": [
+            "A"
+        ],
+        "analysis": "<p>∵$\\alpha \\in (\\frac{\\pi }{2},\\pi )$，$\\sin \\alpha =\\frac{3}{5}$，&there4;$\\cos \\alpha =-\\frac{4}{5}$，</p> <p>&there4;$\\tan \\alpha =-\\frac{3}{4}$，&there4;$\\tan (\\alpha +\\frac{\\pi }{4})=\\frac{1+\\tan \\alpha }{1-\\tan \\alpha }=\\frac{1}{7}$．</p> ",
+        "keyWord": "模拟",
+        "queSource": "2012~2013学年北京西城区北京市第四十三中学高三上学期期中文科第2题5分;其它;",
+        "answerOptionList": [
+            [
+                {
+                    "id": "d2c36cc8bc6b42f2b27b31448abd22ca",
+                    "aoVal": "A",
+                    "sort": 0,
+                    "serialNum": 1,
+                    "content": "<p>$\\frac{1}{7}$</p>"
+                }
             ],
-            [  
-               {  
-                  "id":"a0508f99f1fb424696f38c0883563e33",
-                  "aoVal":"B",
-                  "sort":1,
-                  "serialNum":1,
-                  "content":"Adults are becoming fatter and unhealthier too"
-               }
+            [
+                {
+                    "id": "9f72d16c4e3a4edcaa09b5190c544a78",
+                    "aoVal": "B",
+                    "sort": 1,
+                    "serialNum": 1,
+                    "content": "<p>$7$</p>"
+                }
             ],
-            [  
-               {  
-                  "id":"fc23c41f0c9c427ba593d422dcc26919",
-                  "aoVal":"C",
-                  "sort":2,
-                  "serialNum":1,
-                  "content":"If there were fewer of these restaurants"
-               }
+            [
+                {
+                    "id": "47b3be3c4a6b43e6905d5348135017c4",
+                    "aoVal": "C",
+                    "sort": 2,
+                    "serialNum": 1,
+                    "content": "<p>$-\\frac{1}{7}$</p>"
+                }
             ],
-            [  
-               {  
-                  "id":"867dd37780664e6b835e098e87a50445",
-                  "aoVal":"D",
-                  "sort":3,
-                  "serialNum":1,
-                  "content":"Therefore we have to encourage young people to be more active"
-               }
-            ],
-            [  
-               {  
-                  "id":"163c663903f74a8592c8b24872a69e15",
-                  "aoVal":"E",
-                  "sort":4,
-                  "serialNum":1,
-                  "content":"Not only is this an unhealthy pastime(消遣)，it also gives them time to eat more unhealthy food"
-               }
-            ],
-            [  
-               {  
-                  "id":"7130319d9ab3421d8f43f9e0a2ce8131",
-                  "aoVal":"F",
-                  "sort":5,
-                  "serialNum":1,
-                  "content":"I feel there are a number of reasons for this"
-               }
-            ],
-            [  
-               {  
-                  "id":"c4e90b45cd354c568322b03e5544e404",
-                  "aoVal":"G",
-                  "sort":6,
-                  "serialNum":1,
-                  "content":"It&rsquo;s a good idea to allow children to eat what they choose"
-               }
+            [
+                {
+                    "id": "67ec118e8442464b92a70f7e848c2e11",
+                    "aoVal": "D",
+                    "sort": 3,
+                    "serialNum": 1,
+                    "content": "<p>$-7$</p>"
+                }
             ]
-         ],
-         "examOptionList":[  
-            {  
-               "id":"sh64qkownbgbzl0jpuy3kqn7ek35004c",
-               "name":"阅读",
-               "childList":[  
-                  {  
-                     "id":"3933d6afdf284b2b94d14d3dd3ce1ce3",
-                     "name":"七选五",
-                     "childList":null
-                  }
-               ]
+        ],
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce0035",
+                "name": "三角函数与解三角形",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce0036",
+                        "name": "三角函数",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce003a",
+                                "name": "同角三角函数基本关系式",
+                                "childList": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce003d",
+                        "name": "三角恒等变换",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce003e",
+                                "name": "和差角公式",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
             }
-         ],
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误",
-               "childList":null
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
             },
-            {  
-               "id":"2",
-               "name":"答案错误",
-               "childList":null
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
             },
-            {  
-               "id":"3",
-               "name":"解析错误",
-               "childList":null
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
             },
-            {  
-               "id":"4",
-               "name":"关键字不符",
-               "childList":null
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
             },
-            {  
-               "id":"5",
-               "name":"题目不完整",
-               "childList":null
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
             },
-            {  
-               "id":"6",
-               "name":"重题",
-               "childList":null
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
             },
-            {  
-               "id":"7",
-               "name":"其它",
-               "childList":null
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
             }
-         ],
-         "systemId":"1",
-         "systemName":"培优",
-         "videoUrl":"",
-         "voiceText":"",
-         "translatidText":"",
-         "gifUrl":"",
-         "svgMark":0,
-         "childList":null,
-         "isCompound":0,
-         "isCloze":0
-      },  
-      {  
-         "analysis":"<p>考查名词性物主代词。看be动词都是is，所以代词应该都是单数代词，所以选D。</p>",
-         "answer":[  
-            "D"
-         ],
-         "answerOptionList":[  
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"ours/mine",
-                  "id":"ec935771f21b470bad2a6d71e97ad1fd",
-                  "serialNum":1,
-                  "sort":0
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"B",
-                  "content":"your/ mine",
-                  "id":"a9551d6c15674ec89618b0cab5a51cb1",
-                  "serialNum":1,
-                  "sort":1
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"C",
-                  "content":"yours/her",
-                  "id":"f6477e7998414a3e929fa4ac5b334ad6",
-                  "serialNum":1,
-                  "sort":2
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"D",
-                  "content":"yours/mine",
-                  "id":"3f1309538aa64b619a0766f2c46bda81",
-                  "serialNum":1,
-                  "sort":3
-               }
-            ]
-         ],
-         "content":"<p>That&#39;s not&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;, it is&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;.</p>",
-         "createDate":"2016-07-24 15:29:12",
-         "creater":"赵田园",
-         "difficulty":1,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"e1624267e41047bfa36dc1ef8a8fce6c",
-                           "name":"物主代词"
-                        }
-                     ],
-                     "id":"548a49fbcaa941e3ab4fe1d9540785d8",
-                     "name":"代词"
-                  }
-               ],
-               "id":"3f81a1ce733140b7bb49ff2eab61d05f",
-               "name":"词法"
-            }
-         ],
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"物主代词",
-         "logicQuesTypeId":"1",
-         "logicQuesTypeName":"单选",
-         "modifier":"赵田园",
-         "modifyDate":"2016-07-24 15:29:12",
-         "queId":"507a636aaae2498098064ae91493c78a",
-         "queSource":"小学高年级五年级其它第9题",
-         "subjectId":"3",
-         "subjectName":"英语",
-         "svgMark":0,
-         "systemId":"1",
-         "systemName":"培优",
-         "writtenQuesTypeId":"f6afc90f82d04c1e9625564eccddece7",
-         "writtenQuesTypeName":"单选"
-      },
-      {  
-         "analysis":"<p>$$3$$个$$\\frac{1}{8}$$加上$$2$$个$$\\frac{1}{8}$$是$$5$$个$$\\frac{1}{8}$$，即$$\\frac{5}{8}$$．</p>",
-         "answer":[  
-            "A",
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": "",
+        "voiceText": "",
+        "translatidText": "",
+        "gifUrl": "",
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "4522eb5b0404422998273655aa2d09b2",
+        "contentType": 5,
+        "eleContent": "8aac49074ed448ae014ef9036d300196",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题1",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a00934522eb5b0404422998273655aa2d09b28aac49074ed448ae014ef9036d3001965e6378f81912d3ecd",
+        "isIntoClass": 1
+    },
+    {
+        "queId": "2ef895a3fd0f46a0bb944f6b1983e90f",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "单选",
+        "logicQuesTypeId": "1",
+        "writtenQuesTypeName": "选择",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1001",
+        "difficulty": 2,
+        "creater": "岳君红",
+        "createDate": "2017-01-08 14:49:37",
+        "modifier": "岳君红",
+        "modifyDate": "2017-01-08 14:49:37",
+        "content": "<p>在$\\triangle ABC$中，$\\sin A:\\sin B:\\sin C=3:5:7$，则$\\triangle ABC$的最大角等于（&nbsp; ）．</p>",
+        "answer": [
             "C"
-         ],
-         "answerOptionList":[  
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"<p>$$5$$</p>",
-                  "id":"70c58125df4a4d738647a5252f2b4a69",
-                  "serialNum":1,
-                  "sort":0
-               }
+        ],
+        "analysis": "<p>∵$\\triangle ABC$中，$\\sin A:\\sin B:\\sin C=3:5:7$，</p>\n<p>&there4;由正弦定理得：$a:b:c=3:5:7$，</p>\n<p>可设$a=3t$，$b=5t$，$c=7t$，</p>\n<p>则$c$边最大，则$C$最大，</p>\n<p>由余弦定理得$\\cos C=\\frac{9{{t}^{2}}+25{{t}^{2}}-49{{t}^{2}}}{2\\times 3t\\times 5t}=-\\frac{1}{2}$，</p>\n<p>由于$0&lt;{}C&lt;{} \\pi $，则$C=\\frac{2 \\pi }{3}$．</p>",
+        "keyWord": "",
+        "queSource": "2013~2014学年北京西城区北京市第四中学高一下学期期中第6题5分",
+        "answerOptionList": [
+            [
+                {
+                    "id": "39b8e454435b4f63a525b269f7e049f2",
+                    "aoVal": "A",
+                    "sort": 0,
+                    "serialNum": 1,
+                    "content": "$\\frac{5 \\pi }{6}$"
+                }
             ],
-            [  
-               {  
-                  "aoVal":"B",
-                  "content":"<p>$$6$$</p>",
-                  "id":"716e7d8406504b86852521e7ca5974e2",
-                  "serialNum":1,
-                  "sort":1
-               }
+            [
+                {
+                    "id": "f99364537a714e418f9ead97b2c19006",
+                    "aoVal": "B",
+                    "sort": 1,
+                    "serialNum": 1,
+                    "content": "$\\frac{3 \\pi }{4}$"
+                }
             ],
-            [  
-               {  
-                  "aoVal":"C",
-                  "content":"<p>$$\\frac{5}{8}$$</p>",
-                  "id":"fd5f8cb9b8ec4d4788a1b5dce5363b5c",
-                  "serialNum":1,
-                  "sort":2
-               }
+            [
+                {
+                    "id": "50bda8c0897648678d7999ef5094d4cf",
+                    "aoVal": "C",
+                    "sort": 2,
+                    "serialNum": 1,
+                    "content": "<p>$\\frac{2 \\pi }{3}$</p>"
+                }
             ],
-            [  
-               {  
-                  "aoVal":"D",
-                  "content":"<p>$$\\frac{2}{8}$$</p>",
-                  "id":"8ac17de885db4326a6d250049999dae3",
-                  "serialNum":1,
-                  "sort":3
-               }
+            [
+                {
+                    "id": "5b7099782a494b83bc85a08874e35331",
+                    "aoVal": "D",
+                    "sort": 3,
+                    "serialNum": 1,
+                    "content": "$\\frac{ \\pi }{3}$"
+                }
             ]
-         ],
-         "content":"<p>$$3$$个$$\\frac{1}{8}$$加上$$2$$个$$\\frac{1}{8}$$是（&nbsp; ）个$$\\frac{1}{8}$$，即（&nbsp; ）．</p>",
-         "createDate":"2016-10-24 16:17:24",
-         "creater":"茅凯丽",
-         "difficulty":2,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
+        ],
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce0035",
+                "name": "三角函数与解三角形",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce0041",
+                        "name": "解三角形",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce0042",
+                                "name": "正余弦定理",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
             }
-         ],
-         "examOptionList":[  
-            {  
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0000",
-               "name":"计算"
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
             }
-         ],
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"冲刺100北师三下期末（三）",
-         "logicQuesTypeId":"2",
-         "logicQuesTypeName":"多选",
-         "modifier":"茅凯丽",
-         "modifyDate":"2016-10-24 16:17:24",
-         "queId":"0ceb786a26cb40879825d3602d13747c",
-         "queSource":"三年级下学期其它冲刺100北师三下期末（三）",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"1",
-         "systemName":"培优",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1030",
-         "writtenQuesTypeName":"选择"
-      },
-      {  
-         "analysis":"<p>用$$1$$，$$3$$，$$5$$，$$0$$这四个数中的任意两个数组成两位数，其中最大的是$$53$$，最小的是$$10$$，和$$40$$最接近的是$$35$$．</p>",
-         "answer":[  
-            "B：$$53$$",
-            "D：$$10$$",
-            "A：$$35$$"
-         ],
-         "answerOptionList":[  
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"<p>$$35$$</p>",
-                  "id":"de2c9a77737e44beb0e25633b47a8104",
-                  "serialNum":1,
-                  "sort":0
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"B",
-                  "content":"<p>$$53$$</p>",
-                  "id":"56a9e4982cad49ceb94c0af240e67757",
-                  "serialNum":1,
-                  "sort":1
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"C",
-                  "content":"$$13$$",
-                  "id":"e1626851dba5433d8bd21f4ba39d05d1",
-                  "serialNum":1,
-                  "sort":2
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"D",
-                  "content":"<p>$$10$$</p>",
-                  "id":"7799c5226a064254b6092bcd65f94695",
-                  "serialNum":1,
-                  "sort":3
-               }
-            ]
-         ],
-         "content":"<p>用$$1$$，$$3$$，$$5$$，$$0$$这四个数中的任意两个数组成两位数，其中最大的是（&nbsp; ），最小的是（&nbsp; ），和$$40$$最接近的是（&nbsp; ）．</p>",
-         "createDate":"2017-01-01 21:08:35",
-         "creater":"李长风",
-         "difficulty":2,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": null,
+        "voiceText": null,
+        "translatidText": null,
+        "gifUrl": null,
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "c2a5ad69f640477fa873c344837b8d7f",
+        "contentType": 5,
+        "eleContent": "2ef895a3fd0f46a0bb944f6b1983e90f",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题2",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a0093c2a5ad69f640477fa873c344837b8d7f2ef895a3fd0f46a0bb944f6b1983e90f507f583f0abb91e80",
+        "isIntoClass": 1
+    },
+    {
+        "queId": "2c17e91fb0bd43d78eb55c2f84faa963",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "填空",
+        "logicQuesTypeId": "4",
+        "writtenQuesTypeName": "填空",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1002",
+        "difficulty": 3,
+        "creater": "刘昌超",
+        "createDate": "2017-01-08 22:39:35",
+        "modifier": "刘昌超",
+        "modifyDate": "2017-01-08 22:39:35",
+        "content": "<p>$f\\left( x \\right)=a{{x}^{3}}-3x+1$对于$x\\in [-1,1]$总有$f\\left( x \\right)\\geqslant 0$成立，则$a$=&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;．</p>",
+        "answer": [
+            "$4$"
+        ],
+        "analysis": "<p>若$x=0$，则$f\\left( x \\right)=1$对任意$a$都成立；</p>\n<p>若$x\\in \\left( 0,1 \\right]$，$f\\left( x \\right)=a{{x}^{3}}-3x+1\\geqslant 0$可化为：$a\\geqslant \\frac{3}{{{x}^{2}}}-\\frac{1}{{{x}^{3}}}$</p>\n<p>设$g\\left( x \\right)=\\frac{3}{{{x}^{2}}}-\\frac{1}{{{x}^{3}}}$，则$g&rsquo;\\left( x \\right)=\\frac{3\\left( 1-2x \\right)}{{{x}^{4}}}$，</p>\n<p>&there4;$g\\left( x \\right)$在区间$\\left( 0,\\frac{1}{2} \\right]$单调递增，在区间$\\left[ \\frac{1}{2},1 \\right]$单调递减，</p>\n<p>&there4;$g{{\\left( x \\right)}_{\\max }}=g\\left( \\frac{1}{2} \\right)=4$，即$a\\geqslant 4$．</p>\n<p>若$x\\in \\left[ -1,0 \\right)$，$f\\left( x \\right)=a{{x}^{3}}-3x+1\\geqslant 0$可化为：$a\\leqslant \\frac{3}{{{x}^{2}}}-\\frac{1}{{{x}^{3}}}$</p>\n<p>∵$g\\left( x \\right)$在区间$\\left[ -1,0 \\right)$单调递增，</p>\n<p>&there4;$g{{\\left( x \\right)}_{\\min }}=g\\left( -1 \\right)=4$，即$a\\leqslant 4$．</p>\n<p>综上，$a=4$．</p>",
+        "keyWord": "",
+        "queSource": "2008年高考真题江苏卷第14题5分",
+        "answerOptionList": null,
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce000d",
+                "name": "函数与导数",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce002d",
+                        "name": "导数及其应用",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce0031",
+                                "name": "利用导数求函数的极值与最值",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
             }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"k2iialjruhi1ebq1wh8suc69i2tg001e",
-                           "name":"比较大小综合"
-                        }
-                     ],
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg001d",
-                     "name":"比较与估算"
-                  }
-               ],
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0000",
-               "name":"计算"
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
             }
-         ],
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"",
-         "logicQuesTypeId":"3",
-         "logicQuesTypeName":"多选多",
-         "modifier":"李长风",
-         "modifyDate":"2017-01-01 21:08:35",
-         "queId":"401b4ddac25f47fd85e54d1bac8fec2a",
-         "queSource":"一年级下学期其它",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"1",
-         "systemName":"培优",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1030",
-         "writtenQuesTypeName":"选择"
-      },
-      {  
-         "analysis":"<p>$$\\begin{align}&amp; \\ \\ \\ 1.25\\times\\frac{2}{9}+1\\frac{1}{9}\\times 1\\frac{1}{4}-125\\%\\times \\frac{1}{3} \\\\ &amp;=\\frac{5}{4}\\times \\frac{2}{9}+\\frac{10}{9}\\times \\frac{5}{4}-\\frac{5}{4}\\times\\frac{1}{3} \\\\ &amp; =\\frac{5}{4}\\times (\\frac{2}{9}+\\frac{10}{9}-\\frac{1}{3})\\\\ &amp; =\\frac{5}{4}\\times 1 \\\\ &amp; =\\frac{5}{4} \\\\ \\end{align}$$</p>",
-         "answer":[  
-            "$$1.25$$"
-         ],
-         "content":"<p>计算：$$1.25\\times \\frac{2}{9}+1\\frac{1}{9}\\times 1\\frac{1}{4}-125\\%\\times\\frac{1}{3}=$$&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;．（结果化为小数或整数）</p>",
-         "createDate":"2017-01-09 10:17:21",
-         "creater":"王奇钟",
-         "difficulty":2,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": null,
+        "voiceText": null,
+        "translatidText": null,
+        "gifUrl": null,
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "707170138ecd4711a3b3d7a78d61749f",
+        "contentType": 5,
+        "eleContent": "2c17e91fb0bd43d78eb55c2f84faa963",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题3",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a0093707170138ecd4711a3b3d7a78d61749f2c17e91fb0bd43d78eb55c2f84faa9635dab37a1d19c52c77",
+        "isIntoClass": 1
+    },
+    {
+        "queId": "b6bda1c008e94d8681a6debdadb9027f",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "填空",
+        "logicQuesTypeId": "4",
+        "writtenQuesTypeName": "填空",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1002",
+        "difficulty": 1,
+        "creater": "韦家鼎",
+        "createDate": "2017-01-01 16:32:23",
+        "modifier": "齐芳妮",
+        "modifyDate": "2017-01-03 09:00:08",
+        "content": "<p>若集合$A=\\left\\{ x|x\\leqslant 2 \\right\\}$，$B=\\left\\{ x|x\\geqslant a \\right\\}$，满足$A\\cap B=\\left\\{ 2 \\right\\}$，则实数$a=$&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;．</p>",
+        "answer": [
+            "$2$"
+        ],
+        "analysis": "<p>由题意画数轴得$a=2$．</p>\n<p>故答案为$2$．</p>",
+        "keyWord": "",
+        "queSource": "2016~2017学年北京海淀区中国人民大学附属中学高一上学期期中第10题5分",
+        "answerOptionList": null,
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce0000",
+                "name": "集合与常用逻辑用语",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce0004",
+                        "name": "集合之间的关系与运算",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce0006",
+                                "name": "集合的运算",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
             }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"k2iialjruhi1ebq1wh8suc69i2tg0005",
-                           "name":"乘法分配律与提取公因数"
-                        }
-                     ],
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg0001",
-                     "name":"速算与巧算"
-                  }
-               ],
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0000",
-               "name":"计算"
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
             }
-         ],
-         "gifUrl":"",
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"",
-         "logicQuesTypeId":"4",
-         "logicQuesTypeName":"填空",
-         "modifier":"王奇钟",
-         "modifyDate":"2017-01-09 14:20:39",
-         "queId":"1edda836906b451086427667e0f83ada",
-         "queSource":"其它改编自2012年全国希望杯六年级竞赛初赛第1题",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"4",
-         "translatidText":"",
-         "videoUrl":"",
-         "voiceText":"",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1032",
-         "writtenQuesTypeName":"填空"
-      },
-      {  
-         "analysis":"<p>1. $$\\left( 9.42\\div 3.14 \\right):\\left( 3.14\\div 3.14 \\right)=3:1$$ ．</p>\n<p>2. 连除不能写成比的形式．</p>\n<p>3. $$50:\\left( 5\\times 100 \\right)=1:10$$ ．</p>\n<p>4.比值变为原来的$$\\frac{1}{25}$$．</p>\n<p>5.比的后项相当于分母，不能是$$0$$．</p>",
-         "answer":[  
-            "T",
-            "F",
-            "T",
-            "F",
-            "F"
-         ],
-         "answerOptionList":[  
-            [  
-               {  
-                  "aoVal":"1",
-                  "content":"<p>把$$9.42$$：$$3.14$$化成最简整数比是$$3$$：$$1$$．</p>",
-                  "id":"5fc5ea0722b147d5b32a94231aa6e6fd",
-                  "serialNum":1,
-                  "sort":0
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"2",
-                  "content":"<p>因为$$14\\div 15=14$$：$$15$$，所以$$18\\div 3\\div 6=18$$：$$3$$：$$6$$．</p>",
-                  "id":"d0410555d5324706811d33111ee822f3",
-                  "serialNum":1,
-                  "sort":1
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"3",
-                  "content":"<p>$$50$$厘米和$$5$$米的比值是$$1$$：$$10$$．</p>",
-                  "id":"33aa85e7386449c59368c41acc7f41cc",
-                  "serialNum":1,
-                  "sort":2
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"4",
-                  "content":"<p>一个比的前项缩小到原来的$$\\frac{1}{5}$$，后项扩大到原来的$$5$$倍，这个比的比值不变．</p>",
-                  "id":"167b3785c8bc48a1885920d47e4f4512",
-                  "serialNum":1,
-                  "sort":3
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"5",
-                  "content":"<p>篮球比赛时，甲班与乙班的比分是$$5$$：$$0$$，所以比的后项可以是$$0$$．</p>",
-                  "id":"67f9bc31f12644bcae170439c758d0b3",
-                  "serialNum":1,
-                  "sort":4
-               }
-            ]
-         ],
-         "content":"<p>判断（对的打&ldquo;&radic;&rdquo;，错的打&ldquo;&times;&rdquo;）．</p>",
-         "createDate":"2017-01-08 11:42:59",
-         "creater":"樊小芳",
-         "difficulty":2,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0000",
-               "name":"计算"
-            }
-         ],
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"",
-         "logicQuesTypeId":"5",
-         "logicQuesTypeName":"判断",
-         "modifier":"樊小芳",
-         "modifyDate":"2017-01-08 11:42:59",
-         "queId":"7e4d6d23950a4f04870620333aac0730",
-         "queSource":"小学高年级六年级下学期其它",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"1",
-         "systemName":"培优",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1031",
-         "writtenQuesTypeName":"判断"
-      },
-      {  
-         "analysis":"<p>略．</p>",
-         "answer":[  
-            "C",
-            "D",
-            "A",
-            "B"
-         ],
-         "answerOptionList":[  
-            [  
-               {  
-                  "aoVal":"1",
-                  "content":"<p>第一天行驶了多少千米？&nbsp;&nbsp;&nbsp;&nbsp;</p>",
-                  "id":"343484a577aa47b98845db644a6512a5",
-                  "serialNum":1,
-                  "sort":0
-               },
-               {  
-                  "aoVal":"A",
-                  "content":"<p>$$1500\\times \\left[ \\left( 1-\\frac{2}{5} \\right)\\times \\frac{3}{5} \\right]$$</p>",
-                  "id":"35d4055f08844966be861a066d9ec26a",
-                  "serialNum":2,
-                  "sort":0
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"2",
-                  "content":"<p>第二天比第一天多行了全程的几分之几？</p>",
-                  "id":"2b0a965b2f1645a7a2d68d662bf50679",
-                  "serialNum":1,
-                  "sort":1
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"<p>$$\\left( 1-\\frac{2}{5} \\right)\\times \\left( 1-\\frac{3}{5} \\right)$$</p>",
-                  "id":"b184ef07e4664b3298d655898fe7205b",
-                  "serialNum":2,
-                  "sort":1
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"3",
-                  "content":"<p>第二天行驶了多少千米？</p>",
-                  "id":"583a91eb25c54164b7ffa29a7a1eccdd",
-                  "serialNum":1,
-                  "sort":2
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"<p>$$1500\\times \\frac{2}{5}$$</p>",
-                  "id":"7108283781a2449184f752961b1a2947",
-                  "serialNum":2,
-                  "sort":2
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"4",
-                  "content":"<p>还剩下全程的几分之几没有行？</p>",
-                  "id":"51d83d6b3b0143789ed6077db08b8067",
-                  "serialNum":1,
-                  "sort":3
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"<p>$$\\left( 1-\\frac{2}{5} \\right)\\times \\frac{3}{5}-\\frac{2}{5}$$</p>",
-                  "id":"0b29039ed5634126a0c7932a8441a023",
-                  "serialNum":2,
-                  "sort":3
-               }
-            ]
-         ],
-         "content":"<p>甲、乙两地之间的距离为$$1500$$千米，一辆汽车第一天行驶了全程的$$\\frac{2}{5}$$，第二天行驶了剩下的$$\\frac{3}{5}$$．</p>",
-         "createDate":"2016-11-25 16:50:52",
-         "creater":"原续博",
-         "difficulty":1,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0000",
-               "name":"计算"
-            }
-         ],
-         "gifUrl":"",
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"",
-         "logicQuesTypeId":"6",
-         "logicQuesTypeName":"配对",
-         "modifier":"原续博",
-         "modifyDate":"2016-12-01 17:58:18",
-         "queId":"2689bca26b6b451e88081074096d5307",
-         "queSource":"五年级下学期其它",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"1",
-         "systemName":"培优",
-         "translatidText":"",
-         "videoUrl":"",
-         "voiceText":"",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1033",
-         "writtenQuesTypeName":"计算"
-      },
-      {  
-         "analysis":"<p><img alt=\"\" height=\"235\" src=\"http://file.aibeike.com/picture/b1d67f03-9ef8-4840-81db-1240b77bd25c.png\" width=\"317\" /></p>",
-         "answer":[  
-            "$$6$$"
-         ],
-         "content":"<p>一个学生假期往$$A$$、$$B$$、$$C$$三个城市游览．他今天在这个城市，明天就到另一个城市．假如他第一天在$$A$$市，第五天又回到$$A$$市．问他的游览路线共有多少种不同的方案？</p>",
-         "createDate":"2017-01-09 14:00:56",
-         "creater":"郝艳阳",
-         "difficulty":3,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"k2iialjruhi1ebq1wh8suc69i2tg0022",
-                           "name":"枚举法"
-                        }
-                     ],
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg0021",
-                     "name":"组合"
-                  }
-               ],
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0020",
-               "name":"计数"
-            }
-         ],
-         "gifUrl":"",
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":0,
-         "keyWord":"",
-         "logicQuesTypeId":"8",
-         "logicQuesTypeName":"解答",
-         "modifier":"郝艳阳",
-         "modifyDate":"2017-01-09 14:00:56",
-         "queId":"26f9df781cda4d6fa34f9efc5306b61f",
-         "queSource":"其它改编题",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"4",
-         "translatidText":"",
-         "videoUrl":"",
-         "voiceText":"",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1033",
-         "writtenQuesTypeName":"计算"
-      },
-      {  
-         "analysis":"",
-         "childList":[  
-            {  
-               "analysis":"<p><img alt=\"\" height=\"155\" src=\"http://file.aibeike.com/picture/04c76285-84c9-4f7b-9cf3-b027fc69d0fb.png\" width=\"146\" />．</p>",
-               "answer":[  
-                  "<p><img alt=\"\" height=\"153\" src=\"http://file.aibeike.com/picture/52961400-c691-4184-906d-0b39552c3ccf.png\" width=\"144\" /></p>"
-               ],
-               "content":"<p>根据上面的提示，请你完成右面的路线示意图．</p>",
-               "createDate":"2016-12-25 13:54:36",
-               "creater":"李长风",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg0033",
-                     "name":"应用题"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"1",
-               "gradeGroupName":"小学",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"8",
-               "logicQuesTypeName":"解答",
-               "modifier":"李长风",
-               "modifyDate":"2017-01-08 20:12:14",
-               "queId":"c0adc56295c94016960d0f927922a685",
-               "subjectId":"2",
-               "subjectName":"数学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1035",
-               "writtenQuesTypeName":"应用题"
-            },
-            {  
-               "analysis":"<p>$$201$$路公交车先由终点站向西偏北$$30{}^\\circ $$的方向行驶$$1$$千米$$500$$到达科技馆，再向正北方向行驶$$1$$千米$$200$$米到达市中心，然后向正西方向行驶$$1$$千米$$200$$米到达人民医院，最后向正北方向行驶$$2$$千米$$400$$米到达起始站．</p>",
-               "answer":[  
-                  "<p>$$201$$路公交车先由终点站向西偏北$$30{}^\\circ $$的方向行驶$$1$$千米$$500$$到达科技馆，再向正北方向行驶$$1$$千米$$200$$米到达市中心，然后向正西方向行驶$$1$$千米$$200$$米到达人民医院，最后向正北方向行驶$$2$$千米$$400$$米到达起始站</p>"
-               ],
-               "content":"<p>根据路线示意图，说出$$201$$路公交车返回时所走的方向和路程．</p>",
-               "createDate":"2016-12-25 13:54:36",
-               "creater":"李长风",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg0033",
-                     "name":"应用题"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"1",
-               "gradeGroupName":"小学",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"8",
-               "logicQuesTypeName":"解答",
-               "modifier":"李长风",
-               "modifyDate":"2017-01-08 20:12:14",
-               "queId":"ecebb9df20d443f5b5cbdedd291788f6",
-               "subjectId":"2",
-               "subjectName":"数学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1035",
-               "writtenQuesTypeName":"应用题"
-            },
-            {  
-               "analysis":"<p>（$$2$$千米$$400$$米$$+1$$千米$$200$$米$$\\times 2+1$$千米$$500$$米）$$\\div $$（$$8$$分$$+9$$分$$+8$$分$$+5$$分）$$=6300$$米$$\\div 30$$分$$=210$$米/分．</p>",
-               "answer":[  
-                  "<p>$$210$$米/分</p>"
-               ],
-               "content":"<p>$$201$$路公交车从起始站到人民医院用了$$8$$分钟，由人民医院到市中心用了$$9$$分钟，由市中心到科技馆用了$$8$$分钟，由科技馆到终点站用了$$5$$分钟．该路公交车单程的平均速度是多少？&nbsp;</p>",
-               "createDate":"2016-12-25 13:54:36",
-               "creater":"李长风",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"k2iialjruhi1ebq1wh8suc69i2tg0036",
-                                 "name":"平均数问题"
-                              }
-                           ],
-                           "id":"k2iialjruhi1ebq1wh8suc69i2tg0034",
-                           "name":"基础应用题"
-                        }
-                     ],
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg0033",
-                     "name":"应用题"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"1",
-               "gradeGroupName":"小学",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"8",
-               "logicQuesTypeName":"解答",
-               "modifier":"李长风",
-               "modifyDate":"2017-01-08 20:12:14",
-               "queId":"026c8f6b9d99476f9854a59751e70a2f",
-               "subjectId":"2",
-               "subjectName":"数学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1035",
-               "writtenQuesTypeName":"应用题"
-            }
-         ],
-         "content":"<p>$$201$$路公交车从起始站出发，先向正南方向行驶了$$2$$千米$$400$$米到达人民医院，再向正东方向行驶了$$1$$千米$$200$$米到达市中心，然后向正南方向行驶了$$1$$千米$$200$$米到达科技馆，最后向东偏南$$30{}^\\circ $$的方向行驶了$$1$$千米$$500$$米到达终点站．</p>\n<p><img alt=\"\" height=\"325\" src=\"http://file.aibeike.com/picture/ef6184e4-5a72-498d-8b48-69b120a48c07.png\" style=\"float:right\" width=\"322\" /></p>",
-         "createDate":"2016-12-25 13:54:36",
-         "creater":"李长风",
-         "difficulty":3,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"k2iialjruhi1ebq1wh8suc69i2tg0036",
-                           "name":"平均数问题"
-                        }
-                     ],
-                     "id":"k2iialjruhi1ebq1wh8suc69i2tg0034",
-                     "name":"基础应用题"
-                  }
-               ],
-               "id":"k2iialjruhi1ebq1wh8suc69i2tg0033",
-               "name":"应用题"
-            }
-         ],
-         "gifUrl":"",
-         "gradeGroupId":"1",
-         "gradeGroupName":"小学",
-         "isCloze":0,
-         "isCompound":1,
-         "keyWord":"",
-         "logicQuesTypeId":"9",
-         "logicQuesTypeName":"复合",
-         "modifier":"李长风",
-         "modifyDate":"2017-01-08 20:12:14",
-         "queId":"ce4fb12c6fff42a986e928e89449cad5",
-         "queSource":"六年级上学期其它",
-         "subjectId":"2",
-         "subjectName":"数学",
-         "svgMark":1,
-         "systemId":"1",
-         "systemName":"培优",
-         "translatidText":"",
-         "videoUrl":"",
-         "voiceText":"",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1035",
-         "writtenQuesTypeName":"应用题"
-      },
-      {  
-         "analysis":"<p>1. 考查形容词和副词辨析。travel是动词，需要用副词修饰，排除掉B, D。根据 &quot;You may be amazed how&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;food travels to get to your plate.&quot; 句意得知此处应该&ldquo;如此远&ldquo;。far是&ldquo;远&rdquo;</p>\n<p>2. 考查名词辨析。A. 劣势 C. 方法 D. 联系 。根据 &quot;For example, consumers could only buy food that farmers produced locally.&quot; 得知应该选 &quot;disvantages&quot;。</p>\n<p>3. 考查形容词辨析。B. 急剧的，戏剧的 D. 可用的，可得的。根据 &quot;We do not have to wait for spring or summer to buy strawberries or tomatoes.&quot; 得知应该选&ldquo;可得的&rdquo;</p>\n<p>4. 副词辨析。根据 &quot;The United Arab Emirates (UAE), for example, gets 85% of its food from other countries. &quot; 得知此处 &quot;even&quot; 用来加强语气，表示程度。</p>\n<p>5. 动词辨析。B. 影响。根据 &quot;What&#39;s wrong with&#39;food miles&#39;? Is this not a good way of increasing international trade? &quot; 得知人们 &quot;food miles&quot; 一直困扰大家。</p>\n<p>6. 词组辨析。A. 在当时 B. 平均 C. 另外 D. 作为交换。根据句意需要选择&ldquo;另外&rdquo;用于补充。</p>",
-         "answer":[  
-            "C",
-            "A",
-            "D",
-            "B",
-            "A",
-            "C"
-         ],
-         "answerOptionList":[  
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"early",
-                  "id":"97a86dc7eeef43d48ee0deacf32eb2c0",
-                  "serialNum":1,
-                  "sort":0
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"interesting",
-                  "id":"8632765375b9466daa550b37f925a921",
-                  "serialNum":2,
-                  "sort":0
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"far",
-                  "id":"90150c3a5cb44ab2a54438512cc3f5ab",
-                  "serialNum":3,
-                  "sort":0
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"accurate",
-                  "id":"9b39fb65daef45fabae63ec30af1409c",
-                  "serialNum":4,
-                  "sort":0
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"disadvantages",
-                  "id":"b00479a8120f490f96aafdeee07c57d7",
-                  "serialNum":1,
-                  "sort":1
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"results",
-                  "id":"5381a2de14c041de89a855af56c75e1a",
-                  "serialNum":2,
-                  "sort":1
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"methods",
-                  "id":"8fdb77231a96496986ba448b2cf8d4e2",
-                  "serialNum":3,
-                  "sort":1
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"links",
-                  "id":"84d39baac2e64801bf06ffc4b87b2278",
-                  "serialNum":4,
-                  "sort":1
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"delicious",
-                  "id":"0cc76a267e434876a327e1fc89f825ae",
-                  "serialNum":1,
-                  "sort":2
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"dramatic",
-                  "id":"105cbd5b299c41cc97c12dcfb45283bf",
-                  "serialNum":2,
-                  "sort":2
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"colourful",
-                  "id":"a9363e07f7244096a719b6182b1f5ca6",
-                  "serialNum":3,
-                  "sort":2
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"available",
-                  "id":"99e34b231f844fa8a2db9c5835e992ff",
-                  "serialNum":4,
-                  "sort":2
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"Yet",
-                  "id":"bedd3c58321240dba59271d5353df25e",
-                  "serialNum":1,
-                  "sort":3
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"Even",
-                  "id":"3871a91131a74c3ba294e7139458079d",
-                  "serialNum":2,
-                  "sort":3
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"Still",
-                  "id":"965816f0ec5246f4b326edc7bf26aa2f",
-                  "serialNum":3,
-                  "sort":3
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"Again",
-                  "id":"2b593ea9d8b5437083bf7ccf0e3be51b",
-                  "serialNum":4,
-                  "sort":3
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"worrying",
-                  "id":"d59c40f092524cebb887827f6a217846",
-                  "serialNum":1,
-                  "sort":4
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"affecting",
-                  "id":"0387b2fe5d79474188c4eefa7329913b",
-                  "serialNum":2,
-                  "sort":4
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"encouraging",
-                  "id":"482aaf2d8c7444279654c5a793a4379e",
-                  "serialNum":3,
-                  "sort":4
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"changing",
-                  "id":"4f3c980fb4d7490d9be59822cac37201",
-                  "serialNum":4,
-                  "sort":4
-               }
-            ],
-            [  
-               {  
-                  "aoVal":"A",
-                  "content":"For the time being",
-                  "id":"7f898ebed88a450bad8e06334ab3ba69",
-                  "serialNum":1,
-                  "sort":5
-               },
-               {  
-                  "aoVal":"B",
-                  "content":"On average",
-                  "id":"18ec3dd644494936a7fad8c436339bc3",
-                  "serialNum":2,
-                  "sort":5
-               },
-               {  
-                  "aoVal":"C",
-                  "content":"In addition",
-                  "id":"e8a71f5e528f47cdb44bec04fbc5f960",
-                  "serialNum":3,
-                  "sort":5
-               },
-               {  
-                  "aoVal":"D",
-                  "content":"In return",
-                  "id":"540743487674400d8c0d5e9d1bc3dadc",
-                  "serialNum":4,
-                  "sort":5
-               }
-            ]
-         ],
-         "content":"<p style=\"text-align:justify; text-indent:2em\">Nowadays, the food that you buy comes from many different countries. Have a look in your fridge, cupboard, and fruit bowl and check the origins（来源）of the food. Perhaps there are apples from California, lamb from New Zealand, or potatoes from Egypt? You may be amazed how&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;food travels to get to your plate. This journey, from&quot;field to plate&quot;, is called&quot;food miles&quot;. A food mile is the distance that food travels from the farmer&#39;s field to the person who buys the food. Nowadays, food often travels thousands of miles to get to the consumer. Why is this, and what are the effects of these long distances? 　<img alt=\"\" src=\"http://file.aibeike.com/picture/1099ed7e-e563-4502-8e13-01e676bfb3cd.png\" style=\"float:right\" />　</p>\n<p style=\"text-align:justify; text-indent:2em\">In the past, farmers sold their food in the local market and the consumers did not travel long distances, because they went to their local market to buy the food. This was a good system for farmers and consumers. However, there were some&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;. For example, consumers could only buy food that farmers produced locally. They could only get food that was in season. Now, because of modern technology, food comes from all over the world. We do not have to wait for spring or summer to buy strawberries or tomatoes. They are&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;in winter if we want. Some countries have to import（进口）most of their food. This is because they have difficult climates. The United Arab Emirates (UAE), for example, gets 85% of its food from other countries.&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;food made in the UAE often uses imported materials. &nbsp;&nbsp;&nbsp;</p>\n<p style=\"text-align:justify; text-indent:2em\">What&#39;s wrong with&quot;food miles&quot;? Is this not a good way of increasing international trade? I believe these&quot;food miles&quot;&nbsp;are&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;people for a number of reasons. First of all, because food travels such long distances, we need more planes, lorries and ships to move the food. This means we use more oil or petrol, so there is more pollution and more global warming.&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;, food that travels a long way is not fresh and usually not very tasty. Tomatoes, for example, are picked early and stored for their long journey. For this reason, they are usually tasteless when they get to the consumer. Local food has a better taste, and it reduces the amount of global pollution as well. We need to buy more local food.</p>",
-         "createDate":"2017-02-22 15:32:12",
-         "creater":"邹凤娇",
-         "difficulty":4,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "id":"gkzdp4omn8ibepyukkistkfjk25a0066",
-                     "name":"完形填空"
-                  }
-               ],
-               "id":"gkzdp4omn8ibepyukkistkfjk25a0065",
-               "name":"填空"
-            }
-         ],
-         "gifUrl":"",
-         "gradeGroupId":"2",
-         "gradeGroupName":"初中",
-         "isCloze":1,
-         "isCompound":0,
-         "keyWord":"话题;zk;体裁;zk;说明文",
-         "logicQuesTypeId":"10",
-         "logicQuesTypeName":"完形填空",
-         "modifier":"邹凤娇",
-         "modifyDate":"2017-02-22 17:47:20",
-         "queId":"9f41eb9cd4b942eea86fde0747bd19ca",
-         "queSource":"2016年上海闵行区初三一模第75~80题12分",
-         "subjectId":"3",
-         "subjectName":"英语",
-         "svgMark":0,
-         "systemId":"1",
-         "systemName":"培优",
-         "translatidText":"",
-         "videoUrl":"",
-         "voiceText":"",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1056",
-         "writtenQuesTypeName":"完形填空"
-      },
-       {  
-         "analysis":"",
-         "childList":[  
-            {  
-               "analysis":"<p>在复分解反应中，反应物和生成物都是两种化合物，没有单质生成。</p>",
-               "answer":[  
-                  "单质"
-               ],
-               "content":"<p>复分解反应发生后，生成物肯定不会是&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;（填&ldquo;单质&rdquo;或&ldquo;化合物&rdquo;）。</p>",
-               "createDate":"2016-07-09 11:02:38",
-               "creater":"陈太鑫",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"2afbf0d0ca684c14a2d536fb645c804c",
-                                 "name":"单质与化合物"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c034c",
-                           "name":"自然界的水"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-                     "name":"身边的化学物质"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"2",
-               "gradeGroupName":"初中",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"4",
-               "logicQuesTypeName":"填空",
-               "modifier":"胡兆宇",
-               "modifyDate":"2017-01-09 13:27:55",
-               "queId":"472601757c1442b9bf5af0fb3dc8d81e",
-               "subjectId":"5",
-               "subjectName":"化学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-               "writtenQuesTypeName":"非选择"
-            },
-            {  
-               "analysis":"<p>A、$$m$$ 点所示溶液的 $$\\text{pH}$$ 值小于 $$7$$，所以溶液为酸性，故错误；</p>\n<p>B、$$n$$ 点所示溶液的 $$\\text{pH}$$ 值等于 $$7$$，所以溶液中加紫色石蕊溶液，颜色宝贝，故错误；</p>\n<p>C、$$p$$ 点所示溶液的 $$\\text{pH}$$ 值大于 $$7$$，所以溶液中的溶质为 $$\\text{NaCl}$$ 和 $$\\text{NaOH}$$，故正确；</p>\n<p>D、该图中 $$\\text{pH}$$ 值是从小于 $$7$$ 逐渐的增大到 $$7$$，然后大于 $$7$$，所以所对应操作是将氢氧化钠滴入盐酸中，故错误；</p>\n<p>故选：C。</p>",
-               "answer":[  
-                  "C"
-               ],
-               "answerOptionList":[  
-                  [  
-                     {  
-                        "aoVal":"A",
-                        "content":"<p>$$\\text{m}$$ 点所示溶液为碱性</p>",
-                        "id":"e7f363be21664879bd71c93de76cb42d",
-                        "serialNum":1,
-                        "sort":0
-                     }
-                  ],
-                  [  
-                     {  
-                        "aoVal":"B",
-                        "content":"<p>$$\\text{n}$$ 点所示溶液中加紫色石蕊溶液呈红色</p>",
-                        "id":"63db1cec4f6e4eaf8afb883f9f578aa5",
-                        "serialNum":1,
-                        "sort":1
-                     }
-                  ],
-                  [  
-                     {  
-                        "aoVal":"C",
-                        "content":"<p>$$\\text{p}$$ 点所示溶液中的溶质为 $$\\text{NaCl}$$ 和 $$\\text{NaOH}$$</p>",
-                        "id":"5396381602b640bca0cefece794e3fc8",
-                        "serialNum":1,
-                        "sort":2
-                     }
-                  ],
-                  [  
-                     {  
-                        "aoVal":"D",
-                        "content":"该图所对应操作是将盐酸滴入氢氧化钠溶液中",
-                        "id":"54b59c04df6243ff909f451da5c817df",
-                        "serialNum":1,
-                        "sort":3
-                     }
-                  ]
-               ],
-               "content":"<p>盐酸与氢氧化钠溶液反应时溶液 $$\\text{pH}$$ 的变化如图所示。下列说法正确的是&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;。</p>\n<p><img alt=\"\" height=\"132\" src=\"http://file.aibeike.com/picture/48d608b9-07c0-4436-9cb4-490a4054dc8c.png\" style=\"float:right\" width=\"155\" /></p>",
-               "createDate":"2016-07-09 11:02:38",
-               "creater":"陈太鑫",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c035f",
-                                 "name":"中和反应及其应用"
-                              },
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c0360",
-                                 "name":"溶液的pH"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c035c",
-                           "name":"常见的酸和碱"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-                     "name":"身边的化学物质"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"2",
-               "gradeGroupName":"初中",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"1",
-               "logicQuesTypeName":"单选",
-               "modifier":"胡兆宇",
-               "modifyDate":"2017-01-09 13:27:55",
-               "queId":"36f5835d82b0483ebb93cc1c6008021c",
-               "subjectId":"5",
-               "subjectName":"化学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-               "writtenQuesTypeName":"非选择"
-            },
-            {  
-               "analysis":"<p>见答案。</p>",
-               "answer":[  
-                  "<p>浓硫酸具有吸水性，溶剂质量变大；浓盐酸具有挥发性，溶质质量减少</p>"
-               ],
-               "content":"<p>浓硫酸和浓盐酸敞口放置均会变稀，这是为什么？</p>",
-               "createDate":"2016-07-09 11:02:38",
-               "creater":"陈太鑫",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c035d",
-                                 "name":"常见的酸及化学性质"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c035c",
-                           "name":"常见的酸和碱"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-                     "name":"身边的化学物质"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"2",
-               "gradeGroupName":"初中",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"8",
-               "logicQuesTypeName":"解答",
-               "modifier":"胡兆宇",
-               "modifyDate":"2017-01-09 13:27:55",
-               "queId":"c5e0b6501d244b34a1f4e21b5b85d0c3",
-               "subjectId":"5",
-               "subjectName":"化学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-               "writtenQuesTypeName":"非选择"
-            },
-            {  
-               "analysis":"",
-               "childList":[  
-                  {  
-                     "analysis":"<p>氧化铁和一氧化碳在高温的条件下生成铁和二氧化碳，所以 $$\\text{B}$$ 装置玻璃管里可观察到的现象为：红色固体变黑。</p>",
-                     "answer":[  
-                        "红色固体变黑"
-                     ],
-                     "content":"<p>$$\\text{B}$$ 装置玻璃管里可观察到的现象为&nbsp;<u>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u>&nbsp;。</p>",
-                     "createDate":"2016-07-09 11:02:39",
-                     "creater":"陈太鑫",
-                     "difficulty":3,
-                     "errorTypeList":[  
-                        {  
-                           "id":"1",
-                           "name":"考点错误"
-                        },
-                        {  
-                           "id":"2",
-                           "name":"答案错误"
-                        },
-                        {  
-                           "id":"3",
-                           "name":"解析错误"
-                        },
-                        {  
-                           "id":"4",
-                           "name":"关键字不符"
-                        },
-                        {  
-                           "id":"5",
-                           "name":"题目不完整"
-                        },
-                        {  
-                           "id":"6",
-                           "name":"重题"
-                        },
-                        {  
-                           "id":"7",
-                           "name":"其它"
-                        }
-                     ],
-                     "examOptionList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "childList":[  
-                                    {  
-                                       "id":"6oo7ryi0e79zkqai08wbmeohxn6c0359",
-                                       "name":"金属的化学性质"
-                                    }
-                                 ],
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c0356",
-                                 "name":"金属材料"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-                           "name":"身边的化学物质"
-                        }
-                     ],
-                     "gifUrl":"",
-                     "gradeGroupId":"2",
-                     "gradeGroupName":"初中",
-                     "isCloze":0,
-                     "isCompound":0,
-                     "keyWord":"",
-                     "logicQuesTypeId":"4",
-                     "logicQuesTypeName":"填空",
-                     "modifier":"胡兆宇",
-                     "modifyDate":"2017-01-09 13:27:56",
-                     "queId":"1dd8a24ee6e04797981352e4ecef8442",
-                     "subjectId":"5",
-                     "subjectName":"化学",
-                     "svgMark":1,
-                     "systemId":"1",
-                     "systemName":"培优",
-                     "translatidText":"",
-                     "videoUrl":"",
-                     "voiceText":"",
-                     "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-                     "writtenQuesTypeName":"非选择"
-                  },
-                  {  
-                     "analysis":"<p>二氧化碳和氢氧化钙反应生成碳酸钙沉淀和水，化学方程式为：$$\\text{C}{{\\text{O}}_{2}}+\\text{Ca}{{(\\text{OH})}_{2}}=\\text{CaC}{{\\text{O}}_{3}}\\downarrow +{{\\text{H}}_{2}}\\text{O}$$。</p>",
-                     "answer":[  
-                        "$$\\text{C}{{\\text{O}}_{2}}+\\text{Ca}{{(\\text{OH})}_{2}}=\\text{CaC}{{\\text{O}}_{3}}\\downarrow +{{\\text{H}}_{2}}\\text{O}$$"
-                     ],
-                     "content":"<p>$$\\text{C}$$ 装置中反应的化学方程式为&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;。</p>",
-                     "createDate":"2016-07-09 11:02:39",
-                     "creater":"陈太鑫",
-                     "difficulty":3,
-                     "errorTypeList":[  
-                        {  
-                           "id":"1",
-                           "name":"考点错误"
-                        },
-                        {  
-                           "id":"2",
-                           "name":"答案错误"
-                        },
-                        {  
-                           "id":"3",
-                           "name":"解析错误"
-                        },
-                        {  
-                           "id":"4",
-                           "name":"关键字不符"
-                        },
-                        {  
-                           "id":"5",
-                           "name":"题目不完整"
-                        },
-                        {  
-                           "id":"6",
-                           "name":"重题"
-                        },
-                        {  
-                           "id":"7",
-                           "name":"其它"
-                        }
-                     ],
-                     "examOptionList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "childList":[  
-                                    {  
-                                       "id":"6oo7ryi0e79zkqai08wbmeohxn6c036e",
-                                       "name":"化学方程式的含义及书写"
-                                    }
-                                 ],
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c036c",
-                                 "name":"化学方程式"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c0365",
-                           "name":"物质构成和变化"
-                        }
-                     ],
-                     "gifUrl":"",
-                     "gradeGroupId":"2",
-                     "gradeGroupName":"初中",
-                     "isCloze":0,
-                     "isCompound":0,
-                     "keyWord":"",
-                     "logicQuesTypeId":"4",
-                     "logicQuesTypeName":"填空",
-                     "modifier":"胡兆宇",
-                     "modifyDate":"2017-01-09 13:27:56",
-                     "queId":"3b770fdd79e84307befc03e5f17f268b",
-                     "subjectId":"5",
-                     "subjectName":"化学",
-                     "svgMark":1,
-                     "systemId":"1",
-                     "systemName":"培优",
-                     "translatidText":"",
-                     "videoUrl":"",
-                     "voiceText":"",
-                     "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-                     "writtenQuesTypeName":"非选择"
-                  },
-                  {  
-                     "analysis":"<p>二氧化碳和氢氧化钠反应会生成碳酸钠，碳酸钠、氢氧化钠都显碱性，检验氢氧化钠需要先检验并除去碳酸钠，实验方案是：向试管中加入过量的氯化钙溶液，若有白色沉淀生成，则溶质中含有碳酸钠；静置，取上层清液，低价酚酞，若溶液变红，则溶质中含有氢氧化钠。</p>",
-                     "answer":[  
-                        "<p>向试管中加入过量的氯化钙溶液，若有白色沉淀生成，则溶质中含有碳酸钠；静置，取上层清液，低价酚酞，若溶液变红，则溶质中含有氢氧化钠。</p>"
-                     ],
-                     "content":"<p>实验结束后，若要确定 $$\\text{A}$$ 装置的溶液中溶质的成分，请设计合理的实验方案，简要写出实验步骤、现象和结论。（提示：$$\\text{N}{{\\text{a}}_{2}}\\text{C}{{\\text{O}}_{3}}$$ 溶液呈碱性）</p>",
-                     "createDate":"2016-07-09 11:02:39",
-                     "creater":"陈太鑫",
-                     "difficulty":3,
-                     "errorTypeList":[  
-                        {  
-                           "id":"1",
-                           "name":"考点错误"
-                        },
-                        {  
-                           "id":"2",
-                           "name":"答案错误"
-                        },
-                        {  
-                           "id":"3",
-                           "name":"解析错误"
-                        },
-                        {  
-                           "id":"4",
-                           "name":"关键字不符"
-                        },
-                        {  
-                           "id":"5",
-                           "name":"题目不完整"
-                        },
-                        {  
-                           "id":"6",
-                           "name":"重题"
-                        },
-                        {  
-                           "id":"7",
-                           "name":"其它"
-                        }
-                     ],
-                     "examOptionList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c037f",
-                                 "name":"探究实验"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c037c",
-                           "name":"化学实验"
-                        }
-                     ],
-                     "gifUrl":"",
-                     "gradeGroupId":"2",
-                     "gradeGroupName":"初中",
-                     "isCloze":0,
-                     "isCompound":0,
-                     "keyWord":"",
-                     "logicQuesTypeId":"8",
-                     "logicQuesTypeName":"解答",
-                     "modifier":"胡兆宇",
-                     "modifyDate":"2017-01-09 13:27:56",
-                     "queId":"4dad56fd76be4f31a249e8beeb020a81",
-                     "subjectId":"5",
-                     "subjectName":"化学",
-                     "svgMark":1,
-                     "systemId":"1",
-                     "systemName":"培优",
-                     "translatidText":"",
-                     "videoUrl":"",
-                     "voiceText":"",
-                     "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-                     "writtenQuesTypeName":"非选择"
-                  }
-               ],
-               "content":"<p>如图装置可作一氧化碳还原氧化铁的实验，并检验生成的气体产物。</p>\n<p style=\"text-align:center\"><img alt=\"\" height=\"156\" src=\"http://file.aibeike.com/picture/918cb029-1ca6-4dd8-8917-de264d5640ae.png\" width=\"454\" /></p>",
-               "createDate":"2016-07-09 11:02:38",
-               "creater":"陈太鑫",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c0359",
-                                 "name":"金属的化学性质"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c0356",
-                           "name":"金属材料"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-                     "name":"身边的化学物质"
-                  },
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c036e",
-                                 "name":"化学方程式的含义及书写"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c036c",
-                           "name":"化学方程式"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0365",
-                     "name":"物质构成和变化"
-                  },
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c037f",
-                           "name":"探究实验"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c037c",
-                     "name":"化学实验"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"2",
-               "gradeGroupName":"初中",
-               "isCloze":0,
-               "isCompound":1,
-               "keyWord":"",
-               "logicQuesTypeId":"9",
-               "logicQuesTypeName":"复合",
-               "modifier":"胡兆宇",
-               "modifyDate":"2017-01-09 13:27:55",
-               "queId":"fc67895eb47d48659e0ba114c02d4795",
-               "subjectId":"5",
-               "subjectName":"化学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-               "writtenQuesTypeName":"非选择"
-            },
-            {  
-               "analysis":"<p>设需要消耗铝的质量为 $$x$$&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:285px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:34px\">\n\t\t\t<p style=\"text-align:right\">$$\\text{8Al}$$</p></td>\n\t\t\t<td style=\"width:85px\">\n\t\t\t<p style=\"text-align:center\">$$+\\text{3F}{{\\text{e}}_{3}}{{\\text{O}}_{4}}^{\\underline{\\underline{^{高温}}}}4\\text{A}{{\\text{l}}_{2}}{{\\text{O}}_{3}}+$$</p></td>\n\t\t\t<td style=\"width:41px\">\n\t\t\t<p>$$\\text{9Fe}$$</p></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:34px\">\n\t\t\t<p style=\"text-align:right\">$$216$$</p></td>\n\t\t\t<td style=\"text-align:center; width:85px\">&nbsp;</td>\n\t\t\t<td style=\"width:41px\">$$504$$</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:34px\">\n\t\t\t<p style=\"text-align:right\">$$x$$ &nbsp;</p></td>\n\t\t\t<td style=\"text-align:center; width:85px\">&nbsp;</td>\n\t\t\t<td style=\"width:41px\">$$25\\text{.2 kg}$$</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>$$\\dfrac{216}{x}=\\dfrac{504}{25.2\\text{ kg}}$$</p>\n\n<p>$$x=10.\\text{8 kg}$$</p>\n\n<p>答：需要消耗铝的质量是 $$10.\\text{8 kg}$$。</p>",
-               "answer":[  
-                  "<p>$$10.\\text{8 kg}$$</p>"
-               ],
-               "content":"<p>工业上可利用&ldquo;铝热反应&rdquo;焊接钢轨、冶炼难熔金属等，其原理是在高温下用铝将这些金属从其氧化物中置换出来，若用铝与四氧化三铁反应来制取 $$25\\text{.2 kg}$$ 铁，理论上需要消耗铝的质量是多少？</p>",
-               "createDate":"2016-07-09 11:02:39",
-               "creater":"陈太鑫",
-               "difficulty":3,
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误"
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误"
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误"
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符"
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整"
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题"
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它"
-                  }
-               ],
-               "examOptionList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"96709e1f6a7d47d8ab8197086ee7fe7f",
-                                 "name":"金属矿物的冶炼及相关计算"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c0356",
-                           "name":"金属材料"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-                     "name":"身边的化学物质"
-                  },
-                  {  
-                     "childList":[  
-                        {  
-                           "childList":[  
-                              {  
-                                 "id":"6oo7ryi0e79zkqai08wbmeohxn6c036f",
-                                 "name":"利用化学方程式的简单计算"
-                              }
-                           ],
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c036c",
-                           "name":"化学方程式"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0365",
-                     "name":"物质构成和变化"
-                  }
-               ],
-               "gifUrl":"",
-               "gradeGroupId":"2",
-               "gradeGroupName":"初中",
-               "isCloze":0,
-               "isCompound":0,
-               "keyWord":"",
-               "logicQuesTypeId":"8",
-               "logicQuesTypeName":"解答",
-               "modifier":"胡兆宇",
-               "modifyDate":"2017-01-09 13:27:56",
-               "queId":"18f136d5cd1742c0bbe5e76174ab3468",
-               "subjectId":"5",
-               "subjectName":"化学",
-               "svgMark":1,
-               "systemId":"1",
-               "systemName":"培优",
-               "translatidText":"",
-               "videoUrl":"",
-               "voiceText":"",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-               "writtenQuesTypeName":"非选择"
-            }
-         ],
-         "content":"<p>生活中常见物质的性质、制法的是化学研究的重要内容。</p>",
-         "createDate":"2016-07-09 11:02:38",
-         "creater":"陈太鑫",
-         "difficulty":3,
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误"
-            },
-            {  
-               "id":"2",
-               "name":"答案错误"
-            },
-            {  
-               "id":"3",
-               "name":"解析错误"
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符"
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整"
-            },
-            {  
-               "id":"6",
-               "name":"重题"
-            },
-            {  
-               "id":"7",
-               "name":"其它"
-            }
-         ],
-         "examOptionList":[  
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"2afbf0d0ca684c14a2d536fb645c804c",
-                           "name":"单质与化合物"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c034c",
-                     "name":"自然界的水"
-                  },
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c0359",
-                           "name":"金属的化学性质"
-                        },
-                        {  
-                           "id":"96709e1f6a7d47d8ab8197086ee7fe7f",
-                           "name":"金属矿物的冶炼及相关计算"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c0356",
-                     "name":"金属材料"
-                  },
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c035d",
-                           "name":"常见的酸及化学性质"
-                        },
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c035f",
-                           "name":"中和反应及其应用"
-                        },
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c0360",
-                           "name":"溶液的pH"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c035c",
-                     "name":"常见的酸和碱"
-                  }
-               ],
-               "id":"6oo7ryi0e79zkqai08wbmeohxn6c0347",
-               "name":"身边的化学物质"
-            },
-            {  
-               "childList":[  
-                  {  
-                     "childList":[  
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c036e",
-                           "name":"化学方程式的含义及书写"
-                        },
-                        {  
-                           "id":"6oo7ryi0e79zkqai08wbmeohxn6c036f",
-                           "name":"利用化学方程式的简单计算"
-                        }
-                     ],
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c036c",
-                     "name":"化学方程式"
-                  }
-               ],
-               "id":"6oo7ryi0e79zkqai08wbmeohxn6c0365",
-               "name":"物质构成和变化"
-            },
-            {  
-               "childList":[  
-                  {  
-                     "id":"6oo7ryi0e79zkqai08wbmeohxn6c037f",
-                     "name":"探究实验"
-                  }
-               ],
-               "id":"6oo7ryi0e79zkqai08wbmeohxn6c037c",
-               "name":"化学实验"
-            }
-         ],
-         "gifUrl":"",
-         "gradeGroupId":"2",
-         "gradeGroupName":"初中",
-         "isCloze":0,
-         "isCompound":1,
-         "keyWord":"",
-         "logicQuesTypeId":"9",
-         "logicQuesTypeName":"复合",
-         "modifier":"胡兆宇",
-         "modifyDate":"2017-01-09 13:27:54",
-         "queId":"022e7dc11f2e484e9ff8389a69b07337",
-         "queSource":"2016年河南中考真题第23题10分",
-         "subjectId":"5",
-         "subjectName":"化学",
-         "svgMark":1,
-         "systemId":"1",
-         "systemName":"培优",
-         "translatidText":"",
-         "videoUrl":"",
-         "voiceText":"",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1029",
-         "writtenQuesTypeName":"非选择"
-      },
-      {  
-         "queId":"b870e5a7104649cf903ee3960786b8d1",
-         "subjectName":"语文",
-         "subjectId":"1",
-         "gradeGroupName":"初中",
-         "gradeGroupId":"2",
-         "logicQuesTypeName":"复合",
-         "logicQuesTypeId":"9",
-         "writtenQuesTypeName":"文言文",
-         "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1067",
-         "difficulty":4,
-         "creater":"程倩莹",
-         "createDate":"2017-02-22 16:36:47",
-         "modifier":"程倩莹",
-         "modifyDate":"2017-02-22 16:36:49",
-         "content":"<p><strong>阅读下面的文言文，完成下面的题。</strong></p>\n<p>&nbsp; &nbsp;选文一</p>\n<p>&nbsp; &nbsp; &nbsp;亮躬耕陇亩，好为《梁父吟》．身长八尺，每自比于管仲、乐毅，时人莫之许也。惟博陵崔州平、颍川徐庶元直与亮友善，谓为信然。</p>\n<p>&nbsp; &nbsp; &nbsp;时先主屯新野。徐庶见先主，先主器之，谓先主曰：&ldquo;诸葛孔明者，卧龙也，将军岂愿见之乎？&rdquo;先主曰：&ldquo;君与俱来。&rdquo;庶曰：&ldquo;此人可就见，不可屈致也。将军宜枉驾顾之。&rdquo;</p>\n<p>&nbsp; &nbsp; &nbsp;由是先主遂诣亮，凡三往，乃见。因屏人曰：&ldquo;汉室倾颓，奸臣窃命，主上蒙尘。孤不度德量力，欲信大义于天下，而智术浅短，遂用猖蹶，至于今日。然志犹未已，君谓计将安出？&rdquo;</p>\n<p>&nbsp; &nbsp; &nbsp; &hellip;&hellip;</p>\n<p>&nbsp; &nbsp; &nbsp; 将军既帝室之胄，信义著于四海，总揽英雄，思贤如渴，若跨有荆、益，保其岩阻，西和诸戎，南抚夷越，外结好孙权，内修政理；天下有变，则命一上将将荆州之军以向宛、洛，将军身率益州之众出于秦川，百姓孰敢不箪食壶浆以迎将军者乎？诚如是，则霸业可成，汉室可兴矣。&rdquo;</p>\n<p>&nbsp; &nbsp; &nbsp; 先主曰：&ldquo;善！&rdquo;于是与亮情好日密。</p>\n<p style=\"text-align:right\">节选自《隆中对》</p>\n<p>选文二</p>\n<p>&nbsp; &nbsp; &nbsp; 臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中，咨臣以当世之事，由是感激，遂许先帝以驱驰。后值倾覆，受任于败军之际，奉命于危难之间，尔来二十有一年矣。</p>\n<p>&nbsp; &nbsp; &nbsp; 先帝知臣谨慎，故临崩寄臣以大事也。受命以来，夙夜忧叹，恐托付不效，以伤先帝之明，故五月渡泸，深入不毛。今南方已定，兵甲已足，当奖率三军，北定中原，庶竭驽钝，攘除奸凶，兴复汉室，还于旧都。此臣所以报先帝而忠陛下之职分也。至于斟酌损益，进尽忠言，则攸之、祎、允之任也。</p>\n<p>愿陛下托臣以讨贼兴复之效，不效则治臣之罪，以告先帝之灵。若无兴德之言，则责攸之、祎、允等之慢，以彰其咎。陛下亦宜自谋，以咨诹善道，察纳雅言，深追先帝遗诏。臣不胜受恩感激。</p>\n<p style=\"text-align:right\">节选自《隆中对》</p>",
-         "answer":null,
-         "analysis":null,
-         "keyWord":"文言文阅读;zk;词语解释;zk;语句翻译;zk;文本理解;zk;语句停顿",
-         "queSource":"2016年四川成都初三零模第5题10分;",
-         "answerOptionList":null,
-         "examOptionList":[  
-            {  
-               "id":"sh64qkownbgbzl0jpuy3kqn7ek350007",
-               "name":"古诗文阅读",
-               "childList":[  
-                  {  
-                     "id":"sh64qkownbgbzl0jpuy3kqn7ek350009",
-                     "name":"文言文阅读",
-                     "childList":null
-                  }
-               ]
-            }
-         ],
-         "errorTypeList":[  
-            {  
-               "id":"1",
-               "name":"考点错误",
-               "childList":null
-            },
-            {  
-               "id":"2",
-               "name":"答案错误",
-               "childList":null
-            },
-            {  
-               "id":"3",
-               "name":"解析错误",
-               "childList":null
-            },
-            {  
-               "id":"4",
-               "name":"关键字不符",
-               "childList":null
-            },
-            {  
-               "id":"5",
-               "name":"题目不完整",
-               "childList":null
-            },
-            {  
-               "id":"6",
-               "name":"重题",
-               "childList":null
-            },
-            {  
-               "id":"7",
-               "name":"其它",
-               "childList":null
-            }
-         ],
-         "systemId":"1",
-         "systemName":"培优",
-         "videoUrl":"",
-         "voiceText":null,
-         "translatidText":"<p>&nbsp;选文一</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp;诸葛亮亲自在田地中耕种，喜爱吟唱《梁父吟》，他身高八尺，常常把自己和管仲、乐毅相比，当时人们都不承认这件事．只有博陵的崔州平，颍川（河南禹州）的徐庶与诸葛亮关系甚好，说确实是这样。</p>\n<p>&nbsp;　 &nbsp; 适逢先帝刘备驻扎在新野。徐庶拜见刘备，刘备很器重他，徐庶对刘备说：&ldquo;诸葛孔明这个人，是人间卧伏着的龙啊，将军可愿意见他？&rdquo;刘备说：&ldquo;您和他一起来吧。&rdquo;徐庶说：&ldquo;这个人只能你去他那里拜访，不可以委屈他，召他上门来，将军你应该屈尊亲自去拜访他&rdquo;。</p>\n<p>　　因此先帝就去隆中拜访诸葛亮，总共去了三次，才见到诸葛亮。于是刘备叫旁边的人退下，说：&ldquo;汉室的统治崩溃，奸邪的臣子盗用政令，皇上蒙受风尘遭难出奔．我不能衡量自己的德行能否服人，估计自己的力量能否胜任，想要为天下人伸张大义，然而我才智与谋略短浅，就因此失败，弄到今天这个局面。但是我的志向到现在还没有罢休，您认为该采取怎样的办法呢？&rdquo;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;将军既是皇室的后代，而且声望很高，闻名天下，广泛地罗致英雄，思慕贤才，如饥似渴，如果能占据荆、益两州，守住险要的地方，和西边的各个民族和好，又安抚南边的少数民族，对外联合孙权，对内革新政治；一旦天下形势发生了变化，就派一员上将率领荆州的军队直指中原一带，将军您亲自率领益州的军队从秦川出击，老百姓谁敢不用竹篮盛着饭食，用壶装着酒来欢迎将军您呢？如果真能这样做，那么称霸的事业就可以成功，汉室天下就可以复兴了。&rdquo;</p>\n<p>&nbsp;　 刘备说：&ldquo;好！&rdquo;从此与诸葛亮的关系一天天亲密起来。</p>\n<p>选文二</p>\n<p>&nbsp; &nbsp; &nbsp; 我本来是平民，在南阳务农亲耕，在乱世中苟且保全性命，不奢求在诸侯之中出名。先帝不因为我身份卑微，见识短浅，降低身份委屈自己，三次去我的茅庐拜访我，征询我对时局大事的意见，我因此十分感动，就答应为先帝奔走效劳。后来遇到兵败，在兵败的时候接受任务，在危机患难之间奉行使命，那时以来已经有二十一年了。</p>\n<p>　　先帝知道我做事小心谨慎，所以临终时把国家大事托付给我．接受遗命以来，我早晚忧愁叹息，只怕先帝托付给我的大任不能实现，以致损伤先帝的知人之明，所以我五月渡过泸水，深入到人烟稀少的地方。现在南方已经平定，兵员装备已经充足，应当激励、率领全军将士向北方进军，平定中原，希望用尽我平庸的才能，铲除奸邪凶恶的敌人，恢复汉朝的基业，回到旧日的国都。这就是我用来报答先帝，并且尽忠陛下的职责本分。至于处理事务，斟酌情理，有所兴革，毫无保留地进献忠诚的建议，那就是郭攸之、费祎、董允等人的责任了。</p>\n<p>　　希望陛下能够把讨伐曹魏，兴复汉室的任务托付给我，如果没有成功，就惩治我的罪过，（从而）用来告慰先帝的在天之灵。如果没有振兴圣德的建议，就责罚郭攸之、费祎、董允等人的怠慢，来揭示他们的过失；陛下也应自行谋划，征求、询问治国的好道理，采纳正确的言论，深切追念先帝临终留下的教诲。我感激不尽。</p>",
-         "gifUrl":null,
-         "svgMark":0,
-         "childList":[  
-            {  
-               "queId":"d5cb24d3d13f4e2eba8cc9be0ecf904a",
-               "subjectName":"语文",
-               "subjectId":"1",
-               "gradeGroupName":"初中",
-               "gradeGroupId":"2",
-               "logicQuesTypeName":"单选",
-               "logicQuesTypeId":"1",
-               "writtenQuesTypeName":"文言文",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1067",
-               "difficulty":4,
-               "creater":"程倩莹",
-               "createDate":"2017-02-22 16:36:48",
-               "modifier":"程倩莹",
-               "modifyDate":"2017-02-22 16:36:48",
-               "content":"<p>下列句中加粗词意思相同的一项是（ &nbsp; &nbsp; &nbsp; ）</p>",
-               "answer":[  
-                  "D"
-               ],
-               "analysis":"<p>A．①句意为：常常把自己和管仲、乐毅相比。 于：和； &nbsp; &nbsp; &nbsp;②句意为：在乱世中苟且保全性命．于：在．</p>\n<p>B．①句意为：当时人们都不承认这件事。之：代词，指代&#39;每自比于管仲、乐毅&ldquo;这件事；②句意为：那就是郭攸之、费祎、董允等人的责任了。之：的。</p>\n<p>&nbsp;C．①句意为：我的志向到现在还没有罢休。已：停止； &nbsp;②句意为：兵员装备已经充足。已：已经。</p>\n<p>&nbsp;D．①句意为：将军你应该屈尊亲自去拜访他。枉：降低身份；②句意为：降低身份委屈自己。枉：降低身份</p>",
-               "keyWord":"文言文阅读;zk;词语解释;zk;实词;zk;虚词;zk;划分句子朗读节奏",
-               "queSource":null,
-               "answerOptionList":[  
-                  [  
-                     {  
-                        "id":"050e60d30408404ea27d9f57f0757a20",
-                        "aoVal":"A",
-                        "sort":0,
-                        "serialNum":1,
-                        "content":"<p>&nbsp;每自比<strong>于</strong>管仲、乐毅 &nbsp; &nbsp; &nbsp; &nbsp;苟全性命<strong>于</strong>乱世</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"ff03b36cf6e446d2b1e47f419c7f591c",
-                        "aoVal":"B",
-                        "sort":1,
-                        "serialNum":1,
-                        "content":"<p>时人莫<strong>之</strong>许也 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 攸<strong>之</strong>、祎、允之任也</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"e2ed4495ace0421a88e9f388c0591a23",
-                        "aoVal":"C",
-                        "sort":2,
-                        "serialNum":1,
-                        "content":"<p>志犹未<strong>已</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;兵甲<strong>已</strong>足</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"9a28768f286d4a0ba573f6579e4746b2",
-                        "aoVal":"D",
-                        "sort":3,
-                        "serialNum":1,
-                        "content":"<p>将军宜<strong>枉</strong>驾顾之 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 猥自<strong>枉</strong>屈</p>"
-                     }
-                  ]
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"sh64qkownbgbzl0jpuy3kqn7ek350007",
-                     "name":"古诗文阅读",
-                     "childList":[  
-                        {  
-                           "id":"sh64qkownbgbzl0jpuy3kqn7ek350009",
-                           "name":"文言文阅读",
-                           "childList":null
-                        }
-                     ]
-                  }
-               ],
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符",
-                     "childList":null
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整",
-                     "childList":null
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题",
-                     "childList":null
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它",
-                     "childList":null
-                  }
-               ],
-               "systemId":"1",
-               "systemName":"培优",
-               "videoUrl":null,
-               "voiceText":null,
-               "translatidText":null,
-               "gifUrl":null,
-               "svgMark":0,
-               "childList":null,
-               "isCompound":0,
-               "isCloze":0
-            },
-            {  
-               "queId":"f433d8ec33114ad6a6e03ebe10786546",
-               "subjectName":"语文",
-               "subjectId":"1",
-               "gradeGroupName":"初中",
-               "gradeGroupId":"2",
-               "logicQuesTypeName":"单选",
-               "logicQuesTypeId":"1",
-               "writtenQuesTypeName":"文言文",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1067",
-               "difficulty":4,
-               "creater":"程倩莹",
-               "createDate":"2017-02-22 16:36:48",
-               "modifier":"程倩莹",
-               "modifyDate":"2017-02-22 16:36:48",
-               "content":"<p>语句中加粗的词的解释正确的一项是（ &nbsp; &nbsp; &nbsp; ）</p>",
-               "answer":[  
-                  "C"
-               ],
-               "analysis":"<p>本题考查理解文言实词含义的能力．理解词语的含义时要注意文言词语的特殊用法，如通假字、词类活用、一词多义和古今异义；能结合具体语境来准确辨析即可。</p>\n<p>①句意为：我不能衡量自己的德行能否服人，估计自己的力量能否胜任。度：衡量；</p>\n<p>②句意为：将军你应该屈尊亲自去拜访他。顾：拜访；</p>\n<p>③句意为：征求、询问治国的好道理。诹：询问；</p>\n<p>④句意为：不可以委屈他，召他上门来。致：召唤。</p>",
-               "keyWord":"文言文阅读;zk;词语解释;zk;实词",
-               "queSource":null,
-               "answerOptionList":[  
-                  [  
-                     {  
-                        "id":"b29e7208d20e447588d25f1053552178",
-                        "aoVal":"A",
-                        "sort":0,
-                        "serialNum":1,
-                        "content":"<p>孤不<strong>度</strong>德量力 &nbsp; &nbsp; &nbsp; 度过</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"21048b9d32c7410b873c1c9231c4689a",
-                        "aoVal":"B",
-                        "sort":1,
-                        "serialNum":1,
-                        "content":"<p>将军宜枉驾<strong>顾</strong>之 &nbsp; &nbsp;顾问</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"24ab84926b604b0e8c068ebd53a55b40",
-                        "aoVal":"C",
-                        "sort":2,
-                        "serialNum":1,
-                        "content":"<p>&nbsp;以咨<strong>诹</strong>善道 &nbsp; &nbsp; &nbsp; &nbsp; 询问</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"7260f1de466b4d9d9bd1e7db41209388",
-                        "aoVal":"D",
-                        "sort":3,
-                        "serialNum":1,
-                        "content":"<p>&nbsp;不可屈<strong>致</strong>也 &nbsp; &nbsp; &nbsp; &nbsp; 到来</p>"
-                     }
-                  ]
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"sh64qkownbgbzl0jpuy3kqn7ek350007",
-                     "name":"古诗文阅读",
-                     "childList":[  
-                        {  
-                           "id":"sh64qkownbgbzl0jpuy3kqn7ek350009",
-                           "name":"文言文阅读",
-                           "childList":null
-                        }
-                     ]
-                  }
-               ],
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符",
-                     "childList":null
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整",
-                     "childList":null
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题",
-                     "childList":null
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它",
-                     "childList":null
-                  }
-               ],
-               "systemId":"1",
-               "systemName":"培优",
-               "videoUrl":null,
-               "voiceText":null,
-               "translatidText":null,
-               "gifUrl":null,
-               "svgMark":0,
-               "childList":null,
-               "isCompound":0,
-               "isCloze":0
-            },
-            {  
-               "queId":"8cc9ff99df44492696a930077a466642",
-               "subjectName":"语文",
-               "subjectId":"1",
-               "gradeGroupName":"初中",
-               "gradeGroupId":"2",
-               "logicQuesTypeName":"单选",
-               "logicQuesTypeId":"1",
-               "writtenQuesTypeName":"文言文",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1067",
-               "difficulty":4,
-               "creater":"程倩莹",
-               "createDate":"2017-02-22 16:36:48",
-               "modifier":"程倩莹",
-               "modifyDate":"2017-02-22 16:36:48",
-               "content":"<p>下列对文章内容的理解和写法的分析，不正确的一项是（ &nbsp; &nbsp; &nbsp; ）</p>",
-               "answer":[  
-                  "D"
-               ],
-               "analysis":"<p>本题考查的是对文本内容理解与分析能力。解答此题的关键是在理解课文内容的基础上，根据题目的要求和提示的信息梳理内容，找出相关的语句，概括即可。D．错误。最能体现&ldquo;臣心&rdquo;的应该是&ldquo;此臣所以报先帝而忠陛下之职分也。&rdquo;</p>",
-               "keyWord":"文言文阅读;zk;文本理解",
-               "queSource":null,
-               "answerOptionList":[  
-                  [  
-                     {  
-                        "id":"f293e3afdb5b40f18228a4a2408dd371",
-                        "aoVal":"A",
-                        "sort":0,
-                        "serialNum":1,
-                        "content":"<p>选文一谈到建立&ldquo;霸业&rdquo;根基，诸葛亮先分别论述论述了占据荆州、益州的必要性，再紧承论述占据两州的可能性，条分缕析，论证严密。</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"f151fb002f684531bb37e3c5f3b7716d",
-                        "aoVal":"B",
-                        "sort":1,
-                        "serialNum":1,
-                        "content":"<p>选文一刘备回答的一个&ldquo;善&rdquo;字意味深长，&ldquo;善&rdquo;是对诸葛亮对策的高度评价和由衷敬佩，是请诸葛亮出山的坚定决心和对兴汉事业的必胜信念。</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"90ce3a56f06f470a8bbda6df6a2a7d5b",
-                        "aoVal":"C",
-                        "sort":2,
-                        "serialNum":1,
-                        "content":"<p>选文二&ldquo;苟全性命于乱世，不求闻达于诸侯&rdquo;这句话表明了诸葛亮淡泊名利的性格特点，&ldquo;受任于败军之际，奉命于危难之间&rdquo;则表露了其忠谏的心意。</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"b7958c7b11af41dbbab286015ecb75d6",
-                        "aoVal":"D",
-                        "sort":3,
-                        "serialNum":1,
-                        "content":"<p>选文二可以用杜甫《蜀相》中的名句&ldquo;三顾频烦天下计，两朝开济老臣心&rdquo;来评价，选文中最能体现&ldquo;臣心&rdquo;的一句话是&ldquo;臣不胜受恩感激。&rdquo;</p>"
-                     }
-                  ]
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"sh64qkownbgbzl0jpuy3kqn7ek350007",
-                     "name":"古诗文阅读",
-                     "childList":[  
-                        {  
-                           "id":"sh64qkownbgbzl0jpuy3kqn7ek350009",
-                           "name":"文言文阅读",
-                           "childList":null
-                        }
-                     ]
-                  }
-               ],
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符",
-                     "childList":null
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整",
-                     "childList":null
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题",
-                     "childList":null
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它",
-                     "childList":null
-                  }
-               ],
-               "systemId":"1",
-               "systemName":"培优",
-               "videoUrl":null,
-               "voiceText":null,
-               "translatidText":null,
-               "gifUrl":null,
-               "svgMark":0,
-               "childList":null,
-               "isCompound":0,
-               "isCloze":0
-            },
-            {  
-               "queId":"a6048d9b7dd243b7a5f0b81412fe271e",
-               "subjectName":"语文",
-               "subjectId":"1",
-               "gradeGroupName":"初中",
-               "gradeGroupId":"2",
-               "logicQuesTypeName":"单选",
-               "logicQuesTypeId":"1",
-               "writtenQuesTypeName":"文言文",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1067",
-               "difficulty":4,
-               "creater":"程倩莹",
-               "createDate":"2017-02-22 16:36:49",
-               "modifier":"程倩莹",
-               "modifyDate":"2017-02-22 16:36:49",
-               "content":"<p>下列语句停顿不正确的一项是（ &nbsp; &nbsp; &nbsp; ）</p>",
-               "answer":[  
-                  "A"
-               ],
-               "analysis":"<p>&nbsp; &nbsp; &nbsp; &nbsp;本题考查划分句子结构。划分句子的朗读节奏，首先要理解句子的意思，然后弄清句子的成分，不要把句子割裂开。&nbsp; &nbsp;</p>\n<p>文言文朗读节奏的划分是有规律可循的：①句首关联词或语气词之后要要停顿；②有些古今异义词朗读是要分开；③主语和谓语之间，谓语和宾语、补语之间，一般要停顿；④需要着重强调的地方，一般要停顿；⑤省略句中省略的地方一般要停顿；⑥并列短语间要略作停顿；⑦古代的国名、年号、官职、人名、地名等应做停顿。</p>\n<p>&nbsp; &nbsp; &nbsp;A项句子的朗读节奏符合以下规律： &nbsp;③主语和谓语之间，谓语和宾语、补语之间，一般要停顿；④需要着重强调的地方，一般要停顿。A．错误；将军/身率益州之众/出于秦川。身，亲自，作状语的&ldquo;身&rdquo;是修饰成分。其句意为：将军您亲自率领益州的军队从秦川出击。</p>",
-               "keyWord":"划分句子朗读节奏",
-               "queSource":null,
-               "answerOptionList":[  
-                  [  
-                     {  
-                        "id":"1c728b4dca884c92a0d900196c612d09",
-                        "aoVal":"A",
-                        "sort":0,
-                        "serialNum":1,
-                        "content":"<p>将军身/率益州之众/出于秦川</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"78bf54b8f6da42e0a8126c8753ff458a",
-                        "aoVal":"B",
-                        "sort":1,
-                        "serialNum":1,
-                        "content":"<p>百姓/孰敢不箪食壶浆/以迎将军者乎</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"1f48150ebea347ffbfd5fc16564ec3cd",
-                        "aoVal":"C",
-                        "sort":2,
-                        "serialNum":1,
-                        "content":"<p>此/臣所以报先帝/而忠陛下之职分也</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"504a979b65d54dd4aafe1a76681cedb2",
-                        "aoVal":"D",
-                        "sort":3,
-                        "serialNum":1,
-                        "content":"<p>臣/不胜/受恩感激</p>"
-                     }
-                  ]
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"sh64qkownbgbzl0jpuy3kqn7ek350007",
-                     "name":"古诗文阅读",
-                     "childList":[  
-                        {  
-                           "id":"sh64qkownbgbzl0jpuy3kqn7ek350009",
-                           "name":"文言文阅读",
-                           "childList":null
-                        }
-                     ]
-                  }
-               ],
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符",
-                     "childList":null
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整",
-                     "childList":null
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题",
-                     "childList":null
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它",
-                     "childList":null
-                  }
-               ],
-               "systemId":"1",
-               "systemName":"培优",
-               "videoUrl":null,
-               "voiceText":null,
-               "translatidText":null,
-               "gifUrl":null,
-               "svgMark":0,
-               "childList":null,
-               "isCompound":0,
-               "isCloze":0
-            },
-            {  
-               "queId":"0914deeed8dc47e081c1b8bba682e52e",
-               "subjectName":"语文",
-               "subjectId":"1",
-               "gradeGroupName":"初中",
-               "gradeGroupId":"2",
-               "logicQuesTypeName":"单选",
-               "logicQuesTypeId":"1",
-               "writtenQuesTypeName":"文言文",
-               "writtenQuesTypeId":"13f97b02f7e4f2c9d35ec1af3c2d1067",
-               "difficulty":4,
-               "creater":"程倩莹",
-               "createDate":"2017-02-22 16:36:49",
-               "modifier":"程倩莹",
-               "modifyDate":"2017-02-22 16:36:49",
-               "content":"<p>下列句子翻译正确的一项是（ &nbsp; &nbsp; &nbsp;）</p>",
-               "answer":[  
-                  "C"
-               ],
-               "analysis":"<p>A项&ldquo;谓为信然&rdquo;应该译作&ldquo;说确实是这样&rdquo;；</p>\n<p>B项&ldquo;遂用猖蹶&rdquo;应该译作&ldquo;就因此失败&rdquo;；</p>\n<p>D项&ldquo;彰其咎&rdquo;这里应该译作&ldquo;表明他们的过失&rdquo;。</p>",
-               "keyWord":"文言文阅读;zk;语句翻译",
-               "queSource":null,
-               "answerOptionList":[  
-                  [  
-                     {  
-                        "id":"5ff8e46b659a4cea9e45c5f2896c6210",
-                        "aoVal":"A",
-                        "sort":0,
-                        "serialNum":1,
-                        "content":"<p>惟博陵崔州平、颍川徐庶元直与亮友善，谓为信然。</p>\n<p>译为：只有博陵的崔州平，颍川的徐庶与诸葛亮关系甚好，可以说是诚信之交。</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"9316dd4d160044e8b42c538aac75481c",
-                        "aoVal":"B",
-                        "sort":1,
-                        "serialNum":1,
-                        "content":"<p>智术浅短，遂用猖蹶，至于今日。</p>\n<p>译为：（我）才智与谋略短浅，于是（只能）使用蛮力，弄到今天这个局面。</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"a98cdedc60084997902ff247feeed43c",
-                        "aoVal":"C",
-                        "sort":2,
-                        "serialNum":1,
-                        "content":"<p>咨臣以当世之事，由是感激，遂许先帝以驱驰。</p>\n<p>译为：（先帝）向我询问天下大事，由此使我感动奋发，而同意为先帝奔走效力。</p>"
-                     }
-                  ],
-                  [  
-                     {  
-                        "id":"7f69f207c9124628abc13c9f5adf9197",
-                        "aoVal":"D",
-                        "sort":3,
-                        "serialNum":1,
-                        "content":"<p>若无兴德之言，则责攸之、祎、允等之慢，以彰其咎。</p>\n<p>译为：如果没有增进圣德的忠言，那就责备郭攸之、费祎、董允的怠慢，来表彰或者惩罚他们。</p>"
-                     }
-                  ]
-               ],
-               "examOptionList":[  
-                  {  
-                     "id":"sh64qkownbgbzl0jpuy3kqn7ek350007",
-                     "name":"古诗文阅读",
-                     "childList":[  
-                        {  
-                           "id":"sh64qkownbgbzl0jpuy3kqn7ek350009",
-                           "name":"文言文阅读",
-                           "childList":null
-                        }
-                     ]
-                  }
-               ],
-               "errorTypeList":[  
-                  {  
-                     "id":"1",
-                     "name":"考点错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"2",
-                     "name":"答案错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"3",
-                     "name":"解析错误",
-                     "childList":null
-                  },
-                  {  
-                     "id":"4",
-                     "name":"关键字不符",
-                     "childList":null
-                  },
-                  {  
-                     "id":"5",
-                     "name":"题目不完整",
-                     "childList":null
-                  },
-                  {  
-                     "id":"6",
-                     "name":"重题",
-                     "childList":null
-                  },
-                  {  
-                     "id":"7",
-                     "name":"其它",
-                     "childList":null
-                  }
-               ],
-               "systemId":"1",
-               "systemName":"培优",
-               "videoUrl":null,
-               "voiceText":null,
-               "translatidText":null,
-               "gifUrl":null,
-               "svgMark":0,
-               "childList":null,
-               "isCompound":0,
-               "isCloze":0
-            }
-         ],
-         "isCompound":1,
-         "isCloze":0
-      }
-   ]
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": "",
+        "voiceText": "",
+        "translatidText": "",
+        "gifUrl": "",
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "31ae9c62226942dc9fbaed6774aaff4d",
+        "contentType": 5,
+        "eleContent": "b6bda1c008e94d8681a6debdadb9027f",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题4",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a009331ae9c62226942dc9fbaed6774aaff4db6bda1c008e94d8681a6debdadb9027f58c6ed36396ff8f04",
+        "isIntoClass": 1
+    }
+]
+
 }

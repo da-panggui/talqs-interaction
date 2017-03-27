@@ -7,5 +7,5 @@ import questionContent from './questionContent';
 import questionOptions from './questionOptions';
 export default {
   questionContent,
-  questionOptions
+  questionOptions,
 }
