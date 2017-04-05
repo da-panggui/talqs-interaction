@@ -58,13 +58,16 @@
   border-color: @default;
   padding: 5px 20px 5px 5px;
   margin-bottom: 0;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   &:focus{
     outline: none;
     border-color: @active!important;
   }
-
 }
-/*select {
+/*修改下拉框效果*/
+/*.talqs select {
   padding-top: 0!important;
   padding-bottom: 0!important;
   background-image: 
@@ -80,7 +83,7 @@
 }*/
 //模拟课堂端界面尺寸
 .talqs {
-  width: 992px;
+  max-width: 992px;
   padding-right: 20px;
   max-height: 600px;
   overflow: auto;
