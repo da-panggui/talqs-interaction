@@ -20,7 +20,7 @@ const BlankTypeQuestion = (($) => {
   const DATA_API_KEY = '.data-api'
 
   const Event = {
-    KEYUP_DATA_API: `keyup${EVENT_KEY}${DATA_API_KEY}`,
+    KEYUP_DATA_API: `blur${EVENT_KEY}${DATA_API_KEY}`,
   }
 
   const ATTR = {
