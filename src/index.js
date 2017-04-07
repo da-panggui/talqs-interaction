@@ -87,6 +87,8 @@ const TalqsInteraction = {
     dataType: "jsonp",
   },
 
+  VALIDATE_ERR: 1000,
+
   /**
    * 验证试题答案
    * @param  {[Object]} config [提交配置]
@@ -94,9 +96,7 @@ const TalqsInteraction = {
    */
   submit(data){
     const configData = data || {}
-    const id = configData.id;
-    const inputData = this.getData(id);
-    if (inputData) {
+    if (configData.answer) {
       const success = configData.success;
       const error = configData.error;
       const isFn = fn => typeof fn === 'function';
@@ -106,7 +106,7 @@ const TalqsInteraction = {
           if (result.success) {
             isFn(success) && success(result.data);
           } else { // 后台报错则返回此对象，暂时定义 status 为 1000
-            isFn(error) && error({message: result.message, status: 1000 });
+            isFn(error) && error({message: result.message, status: this.VALIDATE_ERR });
           }
         },
         error(err) {
@@ -117,7 +117,7 @@ const TalqsInteraction = {
       const wrapper = Object.assign(this.defaultConfig, data, callBack);
       if (wrapper.data) { 
         // 作答数据添加
-        wrapper.data.content = JSON.stringify(inputData);
+        wrapper.data.content = JSON.stringify(configData.answer);
         $.ajax(wrapper)
       }
     }

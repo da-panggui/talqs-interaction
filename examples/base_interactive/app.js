@@ -81,8 +81,9 @@ document.getElementById('finish').addEventListener('click', function() {
 
 // 检查答案
 document.getElementById('validate').addEventListener('click', function() {
+    var currentAnswer = TalqsInteraction.getData(currentId);
     TalqsInteraction.submit({
-        id: currentId,
+        answer: currentAnswer,
         data: { // 必填参数，动态修改
             "systemSign": 0, // 系统标示
             "paperId": "2e68816e062349219a77ddaf0b7a0093", // Paper ID
@@ -94,7 +95,11 @@ document.getElementById('validate').addEventListener('click', function() {
             answer.innerHTML = `判卷返回结果如下，1 为正确✅  0 为错误❎️: 
                         <pre>${readableJson(json)}</pre>`;
         },
-        error: function(err){
+        error: function(err){ 
+            // 判卷错误，比如，试题不存在，参数为空...
+            if (err.status = TalqsInteraction.VALIDATE_ERR) {
+                alert(err.message);
+            }
             console.log(err.status);
         }
     })
