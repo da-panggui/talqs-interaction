@@ -93,15 +93,19 @@ const ChoiceTypeQuestion = (($) => {
         this._selected[index] = this._selected[index] === option ? '' : option;
       } else { // 非完型填空类型
         const cindex = this._selected.indexOf(option);
-        if (cindex < 0) {
-          if(this._config.multipleChoice) { // 多选题
+        if (this._config.multipleChoice) { // 多选题
+          if (cindex < 0) { // 添加一个选项
             this._selected.push(option);
-          } else {
-            this._selected = [option];
+          } else { // 移除一个选项
+            this._selected.splice(cindex, 1);
           }
-        } else { // 移除一个选项
-          this._selected.splice(cindex, 1);
+        } else { // 单选题(多次点选同个选项)
+          if (cindex !== -1) {
+            return;
+          }
+          this._selected = [option];
         }
+
         // 按字母顺序排序
         this._selected.sort();
       }
