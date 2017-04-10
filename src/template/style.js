@@ -18,5 +18,8 @@ export default {
   optionsContent: `${options}_content`,
   clear: 'clearfix',
 
-  input: `${main}_blank_input`
+  input: `${main}_blank_input`,
+  
+  label: `${main}_label`,
+  panel: `${main}_panel`,
 }

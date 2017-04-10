@@ -18,6 +18,7 @@ const registerInteractiveTemplate = function(TalqsTemplate) {
   // 注册交互版组件
   const components = TalqsTemplate.components;
   TalqsTemplate.updateTemplateList({
+    // 覆盖内置的题干和选项模板，使之可以交互
     [components.StemsWrapper]: {
       components: [
         {
@@ -28,6 +29,16 @@ const registerInteractiveTemplate = function(TalqsTemplate) {
           name: components.Options,
           template: templates.questionOptions
         }
+      ]
+    },
+    // 在解析中添加我的答案组件
+    [components.AnalyzeWrapper]: {
+      components: [
+        {
+          name: 'questionMyAnswer',
+          template: templates.questionMyAnswer,
+          index: 1,
+        },
       ]
     }
   });
