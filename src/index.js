@@ -14,7 +14,7 @@ import helper from './helper/index';
 import { TALQS_EVENT }  from './events/index';
 
 // 注册交互版本的组件和辅助函数
-(function registerInteractiveTemplate(TalqsTemplate){
+const registerInteractiveTemplate = function(TalqsTemplate) {
   // 注册交互版组件
   const components = TalqsTemplate.components;
   TalqsTemplate.updateTemplateList({
@@ -35,8 +35,15 @@ import { TALQS_EVENT }  from './events/index';
   for (let key in helper) {
     TalqsTemplate.registerHelper(key, helper[key]);
   }
-})(TalqsTemplate)
+}
 
+const switchInteractive = function(interactive) {
+  if (interactive) {
+    registerInteractiveTemplate(TalqsTemplate)
+  } else {
+    TalqsTemplate.resetComponent();
+  }
+}
 
 const TalqsInteraction = {
   /**
@@ -72,6 +79,17 @@ const TalqsInteraction = {
    */
   getData(id) {
     return talqsStorageData.get(id);
+  },
+
+  isInteractive: true,
+
+  toggleInteraction(value) {
+    this.isInteractive = value !== undefined ? value : !this.isInteractive
+    switchInteractive(this.isInteractive);
+  },
+
+  init() {
+    this.toggleInteraction(this.isInteractive);
   },
 
   /**
@@ -123,6 +141,8 @@ const TalqsInteraction = {
     }
   },
 }
+
+TalqsInteraction.init();
 
 // 监听输入事件
 document.addEventListener(TALQS_EVENT.INPUT, function(evt){
