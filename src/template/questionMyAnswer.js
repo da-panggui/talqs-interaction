@@ -9,6 +9,6 @@ export default `
     {{config.labels.myanswer}}
   </label>
   <div class="${style.panel}">
-     {{#(data.myanswer&&data.myanswer.join(' ')) || config.labels.myanswerNote }}
+     {{#(data.myanswer}}
   </div>
 `
