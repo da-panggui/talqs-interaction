@@ -38,7 +38,7 @@ var renderQS = function() {
     var currentData = data[currentIndex];
     currentId = currentData.queId;
     // 我的答案赋值
-    currentData.myanswer = ['C', 'D']
+    currentData.myanswer = 'CD'
 
     // 进行试题渲染
     app.innerHTML = TalqsTemplate.render(currentData, {
@@ -48,7 +48,6 @@ var renderQS = function() {
         analyzeVersion: 2,
         labels: {
             myanswer: '我的答案', // 
-            myanswerNote: '未答', // 未答时显示文案配置
             answer: '正确答案', // 正确答案显示文案
             analyze: '试题详解' // 
         }

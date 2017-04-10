@@ -69,7 +69,7 @@ var renderQS = function() {
     var currentData = data[currentIndex];
     currentId = currentData.queId;
     // 我的答案赋值
-    // currentData.myanswer = 'CD';
+    currentData.myanswer = 'CD';
 
     // 进行试题渲染
     app.innerHTML = TalqsTemplate.render(currentData, {
