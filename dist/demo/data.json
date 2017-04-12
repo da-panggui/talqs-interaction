@@ -1,0 +1,491 @@
+{  
+   "data":
+      [
+    {
+        "queId": "8aac49074ed448ae014ef9036d300196",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "单选",
+        "logicQuesTypeId": "1",
+        "writtenQuesTypeName": "选择",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1001",
+        "difficulty": 2,
+        "creater": "蔡海",
+        "createDate": "2015-08-04 22:00:28",
+        "modifier": "赵建明",
+        "modifyDate": "2017-03-06 14:33:45",
+        "content": "<p>已知$\\alpha \\in \\left( \\frac{\\pi }{2},\\pi \\right)$，$\\sin \\alpha =\\frac{3}{5}$，则$\\tan \\left( \\alpha +\\frac{\\pi }{4} \\right)$的值等于（&nbsp; ）．</p> ",
+        "answer": [
+            "A"
+        ],
+        "analysis": "<p>∵$\\alpha \\in (\\frac{\\pi }{2},\\pi )$，$\\sin \\alpha =\\frac{3}{5}$，&there4;$\\cos \\alpha =-\\frac{4}{5}$，</p> <p>&there4;$\\tan \\alpha =-\\frac{3}{4}$，&there4;$\\tan (\\alpha +\\frac{\\pi }{4})=\\frac{1+\\tan \\alpha }{1-\\tan \\alpha }=\\frac{1}{7}$．</p> ",
+        "keyWord": "模拟",
+        "queSource": "2012~2013学年北京西城区北京市第四十三中学高三上学期期中文科第2题5分;其它;",
+        "answerOptionList": [
+            [
+                {
+                    "id": "d2c36cc8bc6b42f2b27b31448abd22ca",
+                    "aoVal": "A",
+                    "sort": 0,
+                    "serialNum": 1,
+                    "content": "<p>$\\frac{1}{7}$</p>"
+                }
+            ],
+            [
+                {
+                    "id": "9f72d16c4e3a4edcaa09b5190c544a78",
+                    "aoVal": "B",
+                    "sort": 1,
+                    "serialNum": 1,
+                    "content": "<p>$7$</p>"
+                }
+            ],
+            [
+                {
+                    "id": "47b3be3c4a6b43e6905d5348135017c4",
+                    "aoVal": "C",
+                    "sort": 2,
+                    "serialNum": 1,
+                    "content": "<p>$-\\frac{1}{7}$</p>"
+                }
+            ],
+            [
+                {
+                    "id": "67ec118e8442464b92a70f7e848c2e11",
+                    "aoVal": "D",
+                    "sort": 3,
+                    "serialNum": 1,
+                    "content": "<p>$-7$</p>"
+                }
+            ]
+        ],
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce0035",
+                "name": "三角函数与解三角形",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce0036",
+                        "name": "三角函数",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce003a",
+                                "name": "同角三角函数基本关系式",
+                                "childList": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce003d",
+                        "name": "三角恒等变换",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce003e",
+                                "name": "和差角公式",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
+            }
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": "",
+        "voiceText": "",
+        "translatidText": "",
+        "gifUrl": "",
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "4522eb5b0404422998273655aa2d09b2",
+        "contentType": 5,
+        "eleContent": "8aac49074ed448ae014ef9036d300196",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题1",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a00934522eb5b0404422998273655aa2d09b28aac49074ed448ae014ef9036d3001965e6378f81912d3ecd",
+        "isIntoClass": 1
+    },
+    {
+        "queId": "2ef895a3fd0f46a0bb944f6b1983e90f",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "单选",
+        "logicQuesTypeId": "1",
+        "writtenQuesTypeName": "选择",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1001",
+        "difficulty": 2,
+        "creater": "岳君红",
+        "createDate": "2017-01-08 14:49:37",
+        "modifier": "岳君红",
+        "modifyDate": "2017-01-08 14:49:37",
+        "content": "<p>在$\\triangle ABC$中，$\\sin A:\\sin B:\\sin C=3:5:7$，则$\\triangle ABC$的最大角等于（&nbsp; ）．</p>",
+        "answer": [
+            "C"
+        ],
+        "analysis": "<p>∵$\\triangle ABC$中，$\\sin A:\\sin B:\\sin C=3:5:7$，</p>\n<p>&there4;由正弦定理得：$a:b:c=3:5:7$，</p>\n<p>可设$a=3t$，$b=5t$，$c=7t$，</p>\n<p>则$c$边最大，则$C$最大，</p>\n<p>由余弦定理得$\\cos C=\\frac{9{{t}^{2}}+25{{t}^{2}}-49{{t}^{2}}}{2\\times 3t\\times 5t}=-\\frac{1}{2}$，</p>\n<p>由于$0&lt;{}C&lt;{} \\pi $，则$C=\\frac{2 \\pi }{3}$．</p>",
+        "keyWord": "",
+        "queSource": "2013~2014学年北京西城区北京市第四中学高一下学期期中第6题5分",
+        "answerOptionList": [
+            [
+                {
+                    "id": "39b8e454435b4f63a525b269f7e049f2",
+                    "aoVal": "A",
+                    "sort": 0,
+                    "serialNum": 1,
+                    "content": "$\\frac{5 \\pi }{6}$"
+                }
+            ],
+            [
+                {
+                    "id": "f99364537a714e418f9ead97b2c19006",
+                    "aoVal": "B",
+                    "sort": 1,
+                    "serialNum": 1,
+                    "content": "$\\frac{3 \\pi }{4}$"
+                }
+            ],
+            [
+                {
+                    "id": "50bda8c0897648678d7999ef5094d4cf",
+                    "aoVal": "C",
+                    "sort": 2,
+                    "serialNum": 1,
+                    "content": "<p>$\\frac{2 \\pi }{3}$</p>"
+                }
+            ],
+            [
+                {
+                    "id": "5b7099782a494b83bc85a08874e35331",
+                    "aoVal": "D",
+                    "sort": 3,
+                    "serialNum": 1,
+                    "content": "$\\frac{ \\pi }{3}$"
+                }
+            ]
+        ],
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce0035",
+                "name": "三角函数与解三角形",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce0041",
+                        "name": "解三角形",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce0042",
+                                "name": "正余弦定理",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
+            }
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": null,
+        "voiceText": null,
+        "translatidText": null,
+        "gifUrl": null,
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "c2a5ad69f640477fa873c344837b8d7f",
+        "contentType": 5,
+        "eleContent": "2ef895a3fd0f46a0bb944f6b1983e90f",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题2",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a0093c2a5ad69f640477fa873c344837b8d7f2ef895a3fd0f46a0bb944f6b1983e90f507f583f0abb91e80",
+        "isIntoClass": 1
+    },
+    {
+        "queId": "2c17e91fb0bd43d78eb55c2f84faa963",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "填空",
+        "logicQuesTypeId": "4",
+        "writtenQuesTypeName": "填空",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1002",
+        "difficulty": 3,
+        "creater": "刘昌超",
+        "createDate": "2017-01-08 22:39:35",
+        "modifier": "刘昌超",
+        "modifyDate": "2017-01-08 22:39:35",
+        "content": "<p>$f\\left( x \\right)=a{{x}^{3}}-3x+1$对于$x\\in [-1,1]$总有$f\\left( x \\right)\\geqslant 0$成立，则$a$=&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;．</p>",
+        "answer": [
+            "$4$"
+        ],
+        "analysis": "<p>若$x=0$，则$f\\left( x \\right)=1$对任意$a$都成立；</p>\n<p>若$x\\in \\left( 0,1 \\right]$，$f\\left( x \\right)=a{{x}^{3}}-3x+1\\geqslant 0$可化为：$a\\geqslant \\frac{3}{{{x}^{2}}}-\\frac{1}{{{x}^{3}}}$</p>\n<p>设$g\\left( x \\right)=\\frac{3}{{{x}^{2}}}-\\frac{1}{{{x}^{3}}}$，则$g&rsquo;\\left( x \\right)=\\frac{3\\left( 1-2x \\right)}{{{x}^{4}}}$，</p>\n<p>&there4;$g\\left( x \\right)$在区间$\\left( 0,\\frac{1}{2} \\right]$单调递增，在区间$\\left[ \\frac{1}{2},1 \\right]$单调递减，</p>\n<p>&there4;$g{{\\left( x \\right)}_{\\max }}=g\\left( \\frac{1}{2} \\right)=4$，即$a\\geqslant 4$．</p>\n<p>若$x\\in \\left[ -1,0 \\right)$，$f\\left( x \\right)=a{{x}^{3}}-3x+1\\geqslant 0$可化为：$a\\leqslant \\frac{3}{{{x}^{2}}}-\\frac{1}{{{x}^{3}}}$</p>\n<p>∵$g\\left( x \\right)$在区间$\\left[ -1,0 \\right)$单调递增，</p>\n<p>&there4;$g{{\\left( x \\right)}_{\\min }}=g\\left( -1 \\right)=4$，即$a\\leqslant 4$．</p>\n<p>综上，$a=4$．</p>",
+        "keyWord": "",
+        "queSource": "2008年高考真题江苏卷第14题5分",
+        "answerOptionList": null,
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce000d",
+                "name": "函数与导数",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce002d",
+                        "name": "导数及其应用",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce0031",
+                                "name": "利用导数求函数的极值与最值",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
+            }
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": null,
+        "voiceText": null,
+        "translatidText": null,
+        "gifUrl": null,
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "707170138ecd4711a3b3d7a78d61749f",
+        "contentType": 5,
+        "eleContent": "2c17e91fb0bd43d78eb55c2f84faa963",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题3",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a0093707170138ecd4711a3b3d7a78d61749f2c17e91fb0bd43d78eb55c2f84faa9635dab37a1d19c52c77",
+        "isIntoClass": 1
+    },
+    {
+        "queId": "b6bda1c008e94d8681a6debdadb9027f",
+        "subjectName": "数学",
+        "subjectId": "2",
+        "gradeGroupName": "高中",
+        "gradeGroupId": "3",
+        "logicQuesTypeName": "填空",
+        "logicQuesTypeId": "4",
+        "writtenQuesTypeName": "填空",
+        "writtenQuesTypeId": "13f97b02f7e4f2c9d35ec1af3c2d1002",
+        "difficulty": 1,
+        "creater": "韦家鼎",
+        "createDate": "2017-01-01 16:32:23",
+        "modifier": "齐芳妮",
+        "modifyDate": "2017-01-03 09:00:08",
+        "content": "<p>若集合$A=\\left\\{ x|x\\leqslant 2 \\right\\}$，$B=\\left\\{ x|x\\geqslant a \\right\\}$，满足$A\\cap B=\\left\\{ 2 \\right\\}$，则实数$a=$&nbsp;<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>&nbsp;．</p>",
+        "answer": [
+            "$2$"
+        ],
+        "analysis": "<p>由题意画数轴得$a=2$．</p>\n<p>故答案为$2$．</p>",
+        "keyWord": "",
+        "queSource": "2016~2017学年北京海淀区中国人民大学附属中学高一上学期期中第10题5分",
+        "answerOptionList": null,
+        "examOptionList": [
+            {
+                "id": "hcwf4avcmp8l53s5iq010pelwlce0000",
+                "name": "集合与常用逻辑用语",
+                "childList": [
+                    {
+                        "id": "hcwf4avcmp8l53s5iq010pelwlce0004",
+                        "name": "集合之间的关系与运算",
+                        "childList": [
+                            {
+                                "id": "hcwf4avcmp8l53s5iq010pelwlce0006",
+                                "name": "集合的运算",
+                                "childList": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "errorTypeList": [
+            {
+                "id": "1",
+                "name": "考点错误",
+                "childList": null
+            },
+            {
+                "id": "2",
+                "name": "答案错误",
+                "childList": null
+            },
+            {
+                "id": "3",
+                "name": "解析错误",
+                "childList": null
+            },
+            {
+                "id": "4",
+                "name": "关键字不符",
+                "childList": null
+            },
+            {
+                "id": "5",
+                "name": "题目不完整",
+                "childList": null
+            },
+            {
+                "id": "6",
+                "name": "重题",
+                "childList": null
+            },
+            {
+                "id": "7",
+                "name": "其它",
+                "childList": null
+            }
+        ],
+        "systemId": "1",
+        "systemName": "培优",
+        "videoUrl": "",
+        "voiceText": "",
+        "translatidText": "",
+        "gifUrl": "",
+        "svgMark": 0,
+        "childList": null,
+        "isCompound": 0,
+        "isCloze": 0,
+        "eleId": "31ae9c62226942dc9fbaed6774aaff4d",
+        "contentType": 5,
+        "eleContent": "b6bda1c008e94d8681a6debdadb9027f",
+        "isVideo": 0,
+        "isTingli": 0,
+        "isDecidable": 1,
+        "eleTypeName": "例题4",
+        "eleTypeId": 3,
+        "token": "2e68816e062349219a77ddaf0b7a009331ae9c62226942dc9fbaed6774aaff4db6bda1c008e94d8681a6debdadb9027f58c6ed36396ff8f04",
+        "isIntoClass": 1
+    }
+]
+
+}
